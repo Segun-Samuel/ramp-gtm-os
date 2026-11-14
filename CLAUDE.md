@@ -33,6 +33,8 @@ Read the folders in this list when the task matches.
 - knowledge-base/learnings/: what worked and what did not. Read before repeating an experiment.
 - meetings/: notes and transcripts. Read when a task refers to a call.
 - output/campaigns/: everything Claude makes, one folder per workflow. Read when continuing a campaign.
+  - campaign-strategy.md: 18 ranked campaign ideas with mother intent, tier, segment, signal, angle, volume and difficulty.
+  - new-finance-leader-software/: workflow-spec.md (STRUCTURE-APPROVED) and its Clay build guide and flow diagram.
 - tools/: scripts and helpers. Read before running any bulk data job.
 - weekly-priorities/: one file per ISO week, linked to that week's work log. Read at the start of every session.
 - work-log/: timestamped log of every change, same file name as the week's priorities. Append after every change.
