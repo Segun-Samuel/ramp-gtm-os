@@ -15,6 +15,7 @@ Read the folders in this list when the task matches.
   - icp.md: the ICP in five layers (firmographic, technographic, intent signals, persona, engagement readiness), who is not a fit, open questions.
   - personas.md: champion (Controller), economic buyer (CFO or VP Finance; founder or CEO at SMB), influencer (AP and accounting operations).
   - icp-challenge.md: the sceptical Head of Sales challenge on icp.md, with each response and fix.
+  - signal-matrix.md: segments x personas with angles (Matrix 1), buying signals scored on the four tests (Matrix 2), top five to build first, workflow tracker (Matrix 3).
 - context/positioning/: value proposition, positioning, competitors. Read before writing messaging or comparing to competitors.
 - context/messaging/: core message, pillars, facts file. Read before writing any copy.
 - context/brand-kit/: tone of voice and key phrases. Read before writing any copy.
