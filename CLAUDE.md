@@ -20,6 +20,7 @@ Read the folders in this list when the task matches.
 - context/messaging/: core message, pillars, facts file. Read before writing any copy.
 - context/brand-kit/: tone of voice and key phrases. Read before writing any copy.
 - context/docs/: GTM system architecture and case studies. Read when designing or changing a workflow.
+  - gtm-system.md: the outbound system end to end (12 steps, tool and decisions per step, pillar check, open decisions).
 - context/docs/research/: raw research, every fact with a source and a date. Read to check where a claim came from.
 - knowledge-base/playbooks/: methods and templates. Read before building a matrix, a spec or a campaign.
 - knowledge-base/learnings/: what worked and what did not. Read before repeating an experiment.
