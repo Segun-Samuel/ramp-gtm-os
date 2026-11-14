@@ -18,6 +18,7 @@ Read the folders in this list when the task matches.
   - signal-matrix.md: segments x personas with angles (Matrix 1), buying signals scored on the four tests (Matrix 2), top five to build first, workflow tracker (Matrix 3).
 - context/positioning/: value proposition, positioning, competitors. Read before writing messaging or comparing to competitors.
 - context/messaging/: core message, pillars, facts file. Read before writing any copy.
+  - facts.md: the only source of names, numbers and claims for copy. Rows are usable only once the owner has approved them.
 - context/brand-kit/: tone of voice and key phrases. Read before writing any copy.
 - context/docs/: GTM system architecture and case studies. Read when designing or changing a workflow.
   - gtm-system.md: the outbound system end to end (12 steps, tool and decisions per step, pillar check, open decisions).
