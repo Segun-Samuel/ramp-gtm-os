@@ -2,7 +2,7 @@
 
 ## Company
 
-Ramp (https://ramp.com). To fill in after research (step 6).
+Ramp (https://ramp.com), New York. Finance operations platform: corporate cards, expenses, bill pay, procurement, travel, banking and accounting automation, sold to US, Canadian and UK businesses from startups to enterprise. 85,000+ customers and over $2B annualized revenue (Ramp, Oct 15, 2026). Sources: context/docs/research/company.md, checked 2026-11-14. ICP and buyers: context/icp/icp.md and context/icp/personas.md.
 
 ## How this folder works
 
@@ -12,6 +12,9 @@ Read the folders in this list when the task matches.
 - README.md: what this repo is, for people who find it on GitHub.
 - .claude/skills/: skills Claude runs, one folder each with a SKILL.md. Read when a task matches a skill.
 - context/icp/: ICP, personas and signal matrix. Read before any targeting, list building or messaging.
+  - icp.md: the ICP in five layers (firmographic, technographic, intent signals, persona, engagement readiness), who is not a fit, open questions.
+  - personas.md: champion (Controller), economic buyer (CFO or VP Finance; founder or CEO at SMB), influencer (AP and accounting operations).
+  - icp-challenge.md: the sceptical Head of Sales challenge on icp.md, with each response and fix.
 - context/positioning/: value proposition, positioning, competitors. Read before writing messaging or comparing to competitors.
 - context/messaging/: core message, pillars, facts file. Read before writing any copy.
 - context/brand-kit/: tone of voice and key phrases. Read before writing any copy.
