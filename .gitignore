@@ -6,6 +6,9 @@
 *.csv
 *.xlsx
 
+# python virtual environments (tools/crawl4ai/.venv)
+.venv/
+
 # system files
 .DS_Store
 
