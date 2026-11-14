@@ -17,11 +17,17 @@ Read the folders in this list when the task matches.
   - icp-challenge.md: the sceptical Head of Sales challenge on icp.md, with each response and fix.
   - signal-matrix.md: segments x personas with angles (Matrix 1), buying signals scored on the four tests (Matrix 2), top five to build first, workflow tracker (Matrix 3).
 - context/positioning/: value proposition, positioning, competitors. Read before writing messaging or comparing to competitors.
+  - value-proposition.md: job, pain, gain and proof for each persona.
+  - positioning.md: category, target customer, today's alternative, unique value, proof, positioning statement.
+  - competitors.md: main competitors, where Ramp wins and loses, how to respond.
 - context/messaging/: core message, pillars, facts file. Read before writing any copy.
   - facts.md: the only source of names, numbers and claims for copy. Rows are usable only once the owner has approved them.
+  - messaging.md: core message, four pillars with proof, angle per persona, words to use and avoid.
 - context/brand-kit/: tone of voice and key phrases. Read before writing any copy.
+  - brand.md: Ramp's tone of voice, key phrases and naming, from its own copy.
 - context/docs/: GTM system architecture and case studies. Read when designing or changing a workflow.
   - gtm-system.md: the outbound system end to end (12 steps, tool and decisions per step, pillar check, open decisions).
+  - case-studies.md: every customer story in the research (customer, size, industry, problem, result, quote, source).
 - context/docs/research/: raw research, every fact with a source and a date. Read to check where a claim came from.
 - knowledge-base/playbooks/: methods and templates. Read before building a matrix, a spec or a campaign.
 - knowledge-base/learnings/: what worked and what did not. Read before repeating an experiment.
