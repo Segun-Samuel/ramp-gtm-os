@@ -1,0 +1,699 @@
+# Ramp voice: verbatim library of Ramp's own language
+
+Researched: 2026-11-14
+
+Scope: Raw public-source record of how Ramp (https://ramp.com/) describes itself in its own words: homepage, about and careers text, product pages, taglines and bios, recurring vocabulary, product and customer terms, blog and research voice, press releases, how Ramp describes competitors and the old way, and proof-point language. No conclusions about tone, no copy, no advice. Other topics (company, customers, competitors, market, signals) are covered in other files.
+
+## Method and source notes
+
+- Pages were fetched as plain public HTTP GET requests (no login, no paywall bypass, no browser automation). Visible text was extracted from the served HTML, so quotes below are copied from the page source, not from summaries. A fetch tool that summarises pages was used only to cross-check; where a line appears only in that cross-check it is flagged.
+- Where one headline is split across adjacent page elements (a line break or a styled span), I joined the pieces in reading order and say "assembled" beside it.
+- Footnote markers appear as trailing digits or symbols in the page text (for example "7.5%1", "banking*"). They are kept as they appear.
+- Some figures on the pages are live counters or change between fetches (for example the homepage "US corporate payments processed by Ramp" percentage).
+- ramp.com/about, ramp.com/mission and ramp.com/company return HTTP 404 (checked 2026-11-14). The company page is ramp.com/about-us.
+- Third-party sources (ad-industry sites, Marketing Brew, Wayback Machine captures of ramp.com) are labelled. Wayback captures are Ramp's own page text at the capture date shown.
+- The search tool budget ran out partway through, so a few items that needed more searching are listed under "Gaps and not found".
+- Section 5 counts come from the visible text (title and meta lines excluded) of 33 ramp.com pages fetched 2026-11-14, up to the footer, FAQ text included, customer testimonials displayed on the pages included. Pages counted: index (homepage), about-us, corporate-cards, expense-management, accounts-payable, procurement, travel, business-banking, intelligence, pricing, integrations, spend-management, platform, stack, accounting-automation-software, reimbursements, budgets, vendor-management, reporting, enterprise, startups, small-business, mid-market, ai-cost-monitoring, virtual-cards, streamlined-approvals, mobile-app, multi-entity, careers, versus, rewards, savings-calculator, emerging-talent.
+
+---
+
+## 1. Homepage (https://ramp.com/)
+
+### Page title and meta description
+
+- [Title tag] "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp" (Source: https://ramp.com/, checked 2026-11-14)
+- [Meta description, also og:description and twitter:description] "Make expense management easy with Ramp's spend management platform. Combine global corporate cards, travel, expenses and accounts payable to automate finance operations and improve efficiency." (Source: https://ramp.com/, checked 2026-11-14)
+
+### Top banner and live counter
+
+- [Banner above nav, with link label "Learn more"] "Ramp raises $1.85B to get you more from every dollar, hour, and token." (Source: https://ramp.com/, checked 2026-11-14)
+- [Live counter above hero] "US corporate payments processed by Ramp:" followed by a ticking percentage (0.9849853% at the time of the raw fetch). (Source: https://ramp.com/, checked 2026-11-14)
+
+### Navigation
+
+- [Header] "Products", "Solutions", "Partners", "Resources", "Pricing", "Sign in", "See a demo", "Get started" (Source: https://ramp.com/, checked 2026-11-14)
+
+### Hero
+
+- [Hero H1] "Time is money. Save both." (Source: https://ramp.com/, checked 2026-11-14)
+- [Hero subheadline, assembled from adjacent elements] "Cards, expenses, bill payments, and banking* – in the blink of AI." (Source: https://ramp.com/, checked 2026-11-14)
+- [Hero form and CTA] Field label "Email"; button "Get started for free" (Source: https://ramp.com/, checked 2026-11-14)
+- [Label under hero] "AGENTS AT WORK TODAY:" (Source: https://ramp.com/, checked 2026-11-14)
+
+### Section headings, subheads and CTAs in page order
+
+- [H2 plus span, social proof] "Join 85,000 of the world’s most ambitious companies" / "growing 3.2x faster than the average American business." CTA: "Read the report". Stat tile: "$1M+" / "saved on global spend". (Source: https://ramp.com/, checked 2026-11-14)
+- [H2 plus span] "One platform for all of finance." / "Agents for every workflow, working 24/7." CTAs: "Switch in days, not months", "View Demo". (Source: https://ramp.com/, checked 2026-11-14)
+- [Product tiles, each an H3 plus span] "Cards & Expenses" / "that handle themselves"; "Procure to pay" / "without chasing approvals"; "Accounting automation" / "eliminates month-end madness"; "Banking" / "that flows money to the highest return"; "200+ Integrations" / "to the tools you already use". (Source: https://ramp.com/, checked 2026-11-14)
+- [H2 plus helper text] "See recommendations for your business" / "Start with your company website URL, then add any context about your business or spend challenges." (Source: https://ramp.com/, checked 2026-11-14)
+- [UNVERIFIED: this variant of the same widget appeared only in the output of a summarising fetch tool for the same URL and was not found in the raw HTML fetched afterwards, so it may be an A/B variant or a tool artefact] "See recommendations for your business." / "What would you like to spend less time on?" with options "Chasing receipts", "Approving spend", "Paying bills", "Closing the books", "Managing travel", "Tracking subscriptions" and CTA "Get my recommendations". (Source: https://ramp.com/, checked 2026-11-14)
+- [H2 plus subhead] "Systems that never spoke" / "This is what five separate systems to reimburse a flight looks like." (Source: https://ramp.com/, checked 2026-11-14)
+- [Platform heading, assembled] "Built on the intelligence of 85k+ finance teams. One platform for the agentic era." CTAs: "Explore Ramp Intelligence", "Watch Video". (Source: https://ramp.com/, checked 2026-11-14)
+- [H2 plus span, Stack feature] "Introducing Stack by Ramp." / "The AI operating system built for today’s top finance teams." CTAs: "Learn about Ramp Stack", "Read their story". (Source: https://ramp.com/, checked 2026-11-14)
+- [H2 plus span, Intelligence feature] "Keep your finance team focused on strategy." / "Let agents handle the busywork." CTA: "Learn about Ramp Intelligence". (Source: https://ramp.com/, checked 2026-11-14)
+- [H2 plus span, Policy Agents feature] "AI that learns from your team." / "And gets smarter with every team that joins." CTA: "Learn about Policy Agents". (Source: https://ramp.com/, checked 2026-11-14)
+- [Demo prompt] "See what agents can automate." / "Get a personalized look at the busy work agents can take off your team's plate." CTA: "View Demo". (Source: https://ramp.com/, checked 2026-11-14)
+- [Scale section] "Scale the team." / "Shrink the paperwork." / "You had a bureaucracy. Now you have a business again." (Source: https://ramp.com/, checked 2026-11-14)
+- [Scale cards] "Set user access on autopilot." / "Provision cards, permissions, and limits automatically based on role, location, department and custom fields." (CTA "Enterprise Solutions"); "One platform for all your global spend." / "Issue cards in 30+ currencies and reimburse employees in local currencies, including pounds, euros, yen, and pesos." (CTA "Global Spend Management"). (Source: https://ramp.com/, checked 2026-11-14)
+- [Testimonials heading] "85,000 teams and counting" / "We've got the receipts." (Source: https://ramp.com/, checked 2026-11-14)
+- [Closing heading, repeats the hero H1] "Time is money. Save both." with form "Email" and "Get started for free". (Source: https://ramp.com/, checked 2026-11-14)
+
+### Social proof lines (customer words shown on the homepage, with Ramp's attribution)
+
+- "As soon as I texted my first Ramp receipt, I realized Ramp is a game-changer. It’s incredibly intuitive." (Shannon McCormick, International Workplace Experience Lead, Notion) (Source: https://ramp.com/, checked 2026-11-14)
+- "Beautiful tools use beautiful tools." (Tzu-San Hung, Head of Strategic Finance, Notion) (Source: https://ramp.com/, checked 2026-11-14)
+- "Ramp was a complete game changer. It's a single platform that can handle every aspect of our spending." (Matteo Franceschetti, CEO, Eight Sleep) (Source: https://ramp.com/, checked 2026-11-14)
+- "Ramp is so intuitive, people get it right away." (Christine Mimnagh-Fleming, Sr. Manager, Finance Transformation, Shopify) (Source: https://ramp.com/, checked 2026-11-14)
+- "The average person can figure Ramp out without training. That’s what drives 100% adoption." (Michael Bohn, Head of Business Operations, Foursquare) (Source: https://ramp.com/, checked 2026-11-14)
+- "Before Ramp it was a process from the dark ages. We had people just doing expenses full-time. It was miserable." (Michael Litwin, VP Controller, Virgin Voyages) (Source: https://ramp.com/, checked 2026-11-14)
+- "Ramp's AI has given me a better work-life balance. I have more time for my family now that the AI handles much of the work I used to do manually." (Staci Robinson, AP Manager, Pair Eyewear) (Source: https://ramp.com/, checked 2026-11-14)
+- "Closing the books with Ramp is effortless." (Irish Rose, Controller, Eight Sleep) (Source: https://ramp.com/, checked 2026-11-14)
+- "We've consolidated four platforms into one with Ramp." (Andrew Clarke, SVP Finance, Studs) (Source: https://ramp.com/, checked 2026-11-14)
+- "Gone are the days of scrambling to chase receipts, manually coding really large data sets. All of that has been automatically addressed throughout the month in real time." (Lauren Feeney, Controller, Perplexity) (Source: https://ramp.com/, checked 2026-11-14)
+- "Stack has finally automated what we all knew was coming with AI, but it did it in a reliable and consistent manner." (Tyler Otto, President, Specialized Accounting) (Source: https://ramp.com/, checked 2026-11-14)
+- Also shown: 17 testimonials in total in the testimonials block, plus the three attached to the Stack, Intelligence and Policy Agents features. Others are from Mindbody & ClassPass, KIPP Nashville Public Schools, City of Ketchum, ID, Sierra (Bret Taylor), Boys & Girls Clubs of America, Seed Health, Poshmark. (Source: https://ramp.com/, checked 2026-11-14)
+
+### Footer description
+
+- Not found as a descriptive paragraph about the company in the homepage footer.
+- [Pre-footer line] "Join the 85,000+ businesses simplifying their finances with Ramp." (Source: https://ramp.com/, checked 2026-11-14)
+- [Footer disclaimer] "*Ramp Business Corporation is a financial technology company and is not a bank. Bank deposit services provided by First Internet Bank of Indiana, Member FDIC." (Source: https://ramp.com/, checked 2026-11-14)
+- [Copyright line] "© 2026 Ramp Business Corporation. "Ramp" and the Ramp logo are registered trademarks of the company." (Source: https://ramp.com/, checked 2026-11-14)
+- [Footer link labels, homepage, in order] Company: "About us", "Careers", "Emerging talent", "Customers", "Help center", "Product releases", "Ramp for Agents", "Ramp Labs", "API documentation", "Versus". Products: "Corporate cards", "Expense management", "Spend management", "Budgets", "Travel", "Reimbursements", "Procurement", "Accounts payable", "Vendor management", "Approvals", "Security", "Trust", "Mobile app", "Ramp Sheets". Platform: "Platform overview", "Intelligence", "Reporting", "Savings", "Integrations", "Multi-entity", "Global", "AI Spend Management", "Router". Solutions: "Startups", "Small business", "Mid market", "Enterprise". Partners: "Accounting firms", "Private equity", "Venture capital", "System integrators", "Technology partners", "Spend and payroll partners", "Reseller partners", "Franchise partners". (Source: https://ramp.com/, checked 2026-11-14)
+- [Same footer on /about-us also lists] "Banking" under Products and "Accounting automation" under Platform. (Source: https://ramp.com/about-us, checked 2026-11-14)
+- [Free tools list in footer] "Perks and rewards", "Find an accountant", "Find a services partner", "Savings calculator", "Mission statement generator", "Charge finder", "Per diem calculator", "Mileage reimbursement calculator", "Card comparison tool", "Investor database", "Expense categorization", "Expense policy builder", "Vendor directory", "Virtual cards", "Answers Hub". (Source: https://ramp.com/, checked 2026-11-14)
+
+---
+
+## 2. About, company and careers pages
+
+### About page (https://ramp.com/about-us)
+
+- [Title tag] "About Us - Different By Design | Ramp" (Source: https://ramp.com/about-us, checked 2026-11-14)
+- [Meta description] "Ramp is the ultimate platform for modern finance teams. From corporate cards and expense management software, to bill payments and vendor management, Ramp's all-in-one solution is designed to automate finance operations and build healthier businesses." (Source: https://ramp.com/about-us, checked 2026-11-14)
+- [Eyebrow above H1] "About Ramp" (Source: https://ramp.com/about-us, checked 2026-11-14)
+- [H1] "Setting finance free to build healthier businesses." (Source: https://ramp.com/about-us, checked 2026-11-14)
+- [Subhead] "Tens of thousands of finance teams use Ramp to modernize their operations, improve efficiency, and build healthier businesses." (Source: https://ramp.com/about-us, checked 2026-11-14)
+- [CTAs] "Get started for free", "See our product" (Source: https://ramp.com/about-us, checked 2026-11-14)
+- [Stat strip] "27M+" "Hours saved"; "$12B+" "Saved for customers"; "85,000+" "Ramp customers"; "200+" "Countries supported" (Source: https://ramp.com/about-us, checked 2026-11-14)
+- [H2 plus subhead] "Our customers love us." / "Hundreds of 5-star reviews make us the top-rated finance, expense, and card software." (Source: https://ramp.com/about-us, checked 2026-11-14)
+- [Review excerpts] "Ramp has completely transformed our outdated systems" (Brian G., Executive Director, SMB); "Ramp is a dream for detail oriented accountants as well as FP&A teams" (Ryan H., Head of Finance, Mid-Market); "Ramp has saved us countless hours and made our process more accurate" (Mark P., CFO, Enterprise) (Source: https://ramp.com/about-us, checked 2026-11-14)
+- [Press heading and sub] "Saving money (and making news)." / "Download our press kit of images which you can use royalty free in web or print." (Source: https://ramp.com/about-us, checked 2026-11-14)
+- [Press item headlines shown] "CNBC Disruptor 50" (CNBC, June 2025); "Ramp Investors Add Funding as Company Expands, Plans AI Agents" (Bloomberg, June 2025); "America’s Greatest Startup Workplaces 2025" (Newsweek, March 2025); "Fintech Ramp lands Eagles’ Saquon Barkley as investor and Super Bowl commercial star" (TechCrunch, February 2025); "The Religion of Ramp" (Every, December 2024); "Ramp CEO Eric Glyman Explains What He’s Seeing on AI" (Bloomberg, January 2025) (Source: https://ramp.com/about-us, checked 2026-11-14)
+- [Investor line] "Backed by over 100 of the most influential angels, founders, and board members in Fintech" (Source: https://ramp.com/about-us, checked 2026-11-14)
+- [Closing] "Ready to make an impact?" / "Join us to modernize finance and help every business thrive." CTA "See open positions". (Source: https://ramp.com/about-us, checked 2026-11-14)
+
+### Values (each heading with the first paragraph shown under it)
+
+- "Grow without fear": "As Ramp grows, we will face new challenges. To overcome them, each of us will be asked to grow alongside the company. We expect this to be uncomfortable at times, and we grow by embracing this discomfort." (Source: https://ramp.com/about-us, checked 2026-11-14)
+- "We win when customers win": "Ramp succeeds when our customers succeed. Our products are a competitive advantage for our customers, helping them run their businesses as effectively as possible. The only way we can continue delivering is by ensuring customers have a seat at every table, a voice in every debate, and a vote in every decision we make. We must obsess about making customers more successful." (Source: https://ramp.com/about-us, checked 2026-11-14)
+- "Amp it up": "Speed matters. Getting back to someone today is better than tomorrow. We push ourselves to make decisions when we have just enough information rather than waste time collecting more data. A simple solution that ships is better than a perfect one stuck on the cutting floor. We make faster progress on the projects that are of the highest priority by saying “no” to the ones that aren’t." (Source: https://ramp.com/about-us, checked 2026-11-14)
+- "We're one team": "If we want to go far, we must go together. Ramp is a collection of people who, together, can achieve things that none of us could on our own. We lean on each other for input and guidance and are good teammates. We default to open channels and docs so people can follow along with our work. We optimize for the company, no one individual project or team." (Source: https://ramp.com/about-us, checked 2026-11-14)
+- "Ramp is built for everyone": "We’re here to help businesses be more successful. We don’t select our customers based on the ideology or views of their organization or owners. Similarly, Ramplings join us based on their ability to drive the business forward." (Source: https://ramp.com/about-us, checked 2026-11-14)
+- "Take ownership": "A company is nothing but a collection of people. We believe in the power of every individual at Ramp. We channel that power by giving individuals significant ownership of their work. In exchange, we require everyone here to care. To care a lot." (Source: https://ramp.com/about-us, checked 2026-11-14)
+- (The second paragraph under each value is also on the page, for example under "Take ownership": "Caring can be draining. It’s following through on commitments, it’s asking ‘why’ until we fully understand, it’s getting annoyed, and taking initiative when the quality doesn’t meet our bar.") (Source: https://ramp.com/about-us, checked 2026-11-14)
+
+### Mission statement
+
+- No standalone mission statement on /about-us. Not found there.
+- [Co-CEO blog post, Oct 15, 2026, describing the original mission] "Seven years ago, Karim and I wrote our mission on a Post-it and got to work." followed on the page by "“Save companies time and money”" (Source: https://ramp.com/blog/ramp-at-60-billion, checked 2026-11-14)
+- [Same post] "Our mission hasn’t changed. It’s just gotten bigger." (Source: https://ramp.com/blog/ramp-at-60-billion, checked 2026-11-14)
+- [Press release, Jun 4, 2026] "Ramp's mission is to save companies time and money." (Source: https://www.prnewswire.com/news-releases/ramp-raises-series-f-at-44-billion-valuation-302791103.html, checked 2026-11-14)
+- [Blog, Jul 16, 2026] "At Ramp, our mission is to save you time and money, and AI spend is no exception." (Source: https://ramp.com/blog/ai-token-spend-launch, checked 2026-11-14)
+
+### Careers page and founder letter (https://ramp.com/careers)
+
+- [Title tag] "Careers - Change How Businesses Run | Ramp" (Source: https://ramp.com/careers, checked 2026-11-14)
+- [Meta description, the origin-story text on the page] "Ramp was founded by the same team who built, scaled, and sold Paribus to Capital One, spearheading Capital One's push into saving technologies. Their group at Capital One enabled automated savings on online purchases, and put over $100 million back in consumers' pockets every year. Ramp is committed to providing that same value and savings to businesses by leading the charge to create a financial stack that actually works on a company's behalf – starting with the corporate card." (Source: https://ramp.com/careers, checked 2026-11-14)
+- [H1 and sub] "We only hire builders" / "Come here to solve hard problems, build without permission, and ship work you’re proud of. Sounds intense? It is." (Source: https://ramp.com/careers, checked 2026-11-14)
+- [Employee tiles, examples] "Wrote" "the code that killed expense reports"; "Produced" "our first Super Bowl ad in under a week"; "Built" "an AI spreadsheet editor in two weekends"; "Locked" ""Brian in a box" with 600,000 receipts"; "Onboarded" "950 new customers in January". (Source: https://ramp.com/careers, checked 2026-11-14)
+- [Founder letter heading and opening] "Work on hard problems with hardcore people." / "Our two founders, Eric and Karim, thought it’d be a good idea to write a letter persuading you not to apply." (Source: https://ramp.com/careers, checked 2026-11-14)
+- [Letter body] "When we started hiring for Ramp we had one simple criterion:" / "“If this person started a company would we join them?”" (Source: https://ramp.com/careers, checked 2026-11-14)
+- [Letter body] "That first year, we hired 60 more brilliant misfits. And that group of misfits built the fastest-growing company in New York City." (Source: https://ramp.com/careers, checked 2026-11-14)
+- [Letter body] "Fast forward to year seven. And we’re growing 10x faster than the median publicly traded SaaS company." (Source: https://ramp.com/careers, checked 2026-11-14)
+- [Letter body] "You’ll be given too much responsibility. You’ll never be bored.You’ll be pushed to do the best work of your career — at the fastest pace of your career." (Source: https://ramp.com/careers, checked 2026-11-14)
+- [FAQ heading and answer, "What is Ramp?"] "We’re the all-in-one AI finance platform, designed around one simple principle:" / "“If it doesn’t save you time or money, we don’t build it.”" (Source: https://ramp.com/careers, checked 2026-11-14)
+- [Same section] "The result? 85,000+ companies—from family farms to Shopify—saving billions of dollars and hours each year." (Source: https://ramp.com/careers, checked 2026-11-14)
+- [Culture answer] "“Hands off” doesn’t exist at Ramp." / "Our marketers are coding. Our PMs are rewriting copy. Our devs are building their own agent." / "We’re a proud meritocracy. Titles and roles are the least interesting thing about Ramp employees." / "And last but not least: Pizza Fridays are tradition. Dinner is every night of the week." (Source: https://ramp.com/careers, checked 2026-11-14)
+- [Why choose Ramp answer] "Working at Ramp is a bet on yourself." / "If you have talent and drive we will back you like the Medici family backed Michelangelo." (Source: https://ramp.com/careers, checked 2026-11-14)
+- [Benefits answer, final line] "Oh, and a lot of tokens." (Source: https://ramp.com/careers, checked 2026-11-14)
+
+### Emerging talent page (https://ramp.com/emerging-talent)
+
+- [H1 and sub] "Grow with Ramp." / "Our Rampling interns are involved in challenging, high priority projects that truly impact the business and our customers." (Source: https://ramp.com/emerging-talent, checked 2026-11-14)
+- [Meta description] "Challenge yourself with real, unique problems and fully own your projects with the complete support of experienced mentors and colleagues - all while revolutionizing how businesses conduct finance." (Source: https://ramp.com/emerging-talent, checked 2026-11-14)
+
+### How Ramp describes the company and the customer on the about and careers pages
+
+- "Ramp is the ultimate platform for modern finance teams." (about-us meta description) (Source: https://ramp.com/about-us, checked 2026-11-14)
+- "Tens of thousands of finance teams use Ramp to modernize their operations, improve efficiency, and build healthier businesses." (about-us subhead) (Source: https://ramp.com/about-us, checked 2026-11-14)
+- "We’re the all-in-one AI finance platform" (careers) (Source: https://ramp.com/careers, checked 2026-11-14)
+- "85,000+ companies—from family farms to Shopify" (careers) (Source: https://ramp.com/careers, checked 2026-11-14)
+
+---
+
+## 3. Product pages
+
+Each entry: title tag, meta description, headline, subheadline, key claims. All text copied from the page source.
+
+### 3.1 Corporate cards (https://ramp.com/corporate-cards)
+
+- [Title tag] "The Best Corporate Credit Card - Ramp" (Source: https://ramp.com/corporate-cards, checked 2026-11-14)
+- [Meta description] "Ramp's corporate card gives your business built-in spend controls, expense tracking, and rewards. Manage virtual and physical corporate credit cards in minutes." (Source: https://ramp.com/corporate-cards, checked 2026-11-14)
+- [H1] "A corporate card designed for modern finance." (Source: https://ramp.com/corporate-cards, checked 2026-11-14)
+- [Subheadline] "Save money and time. All with one corporate card." (Source: https://ramp.com/corporate-cards, checked 2026-11-14)
+- [CTAs] "Get started for free", "Explore demo", "See how it works on mobile", "Learn about savings", "Explore rewards", "Learn more" (Source: https://ramp.com/corporate-cards, checked 2026-11-14)
+- [Hero feature list] "Save more by preventing out-of-policy spend." / "Be free from expense reports." / "Unlock savings in real time." / "Grow your business with the right terms." (Source: https://ramp.com/corporate-cards, checked 2026-11-14)
+- [Claim, hero feature list] "Get rewards and perks, and up to 7.5%1 savings. There’s no personal credit checks or personal guarantee." (Source: https://ramp.com/corporate-cards, checked 2026-11-14)
+- [Footnote 1 text, in part] "We calculate average savings as a percentage of an illustrative customer's total card spending when using Ramp features designed to reduce business expenses. Keep in mind that this percentage is an estimate, not a guarantee." (Source: https://ramp.com/corporate-cards, checked 2026-11-14)
+- [Section heading] "Build control into the card, before spend even happens." (Source: https://ramp.com/corporate-cards, checked 2026-11-14)
+- [Section headings, in order] "More visibility, more time back."; "Simplify approvals and share accountability."; "Focus on your work, not follow ups."; "Effortless expenses for employees (and managers)."; "Don't sweat a missing receipt."; "Automation, control, and rewards in one place."; "Earn cashback on every swipe."; "Over $350k in partner offers."; "200+ Integrations to the tools you already use."; "Centralize your spend onone intuitive platform." (the heading as served, with the missing space); "FAQ" (Source: https://ramp.com/corporate-cards, checked 2026-11-14)
+- [Claims] "Over $350k in partner offers."; "Corporate charge card with 30-day payback"; "Unlimited physical and virtual cards"; "Acceptance in 200+ countries through the Visa global network"; "Reimburse in 60+ countries and 40 currencies" (Source: https://ramp.com/corporate-cards, checked 2026-11-14)
+- [Claim] "Ramp automatically finishes expenses for you by routing transactions to the right limits, generating receipts for purchases, and saving recurring memos." (Source: https://ramp.com/corporate-cards, checked 2026-11-14)
+
+### 3.2 Expense management (https://ramp.com/expense-management)
+
+- [Title tag] "Expense Management Software & Reporting Solution" (Source: https://ramp.com/expense-management, checked 2026-11-14)
+- [Meta description] "Automate your expenses with Ramp. Simplify tracking, reimbursement, and reporting with our intuitive expense management platform." (Source: https://ramp.com/expense-management, checked 2026-11-14)
+- [Banner above hero] "AI spend is your fastest-growing line item. Now you can manage it on Ramp." (Source: https://ramp.com/expense-management, checked 2026-11-14)
+- [H1] "Reimagine expense management without the busywork." (Source: https://ramp.com/expense-management, checked 2026-11-14)
+- [Subheadline] "Automated expense management software built into your corporate card, reimbursements, and more." (Source: https://ramp.com/expense-management, checked 2026-11-14)
+- [Proof line under hero] "Join the 85,000+ businesses already simplifying their finances." (Source: https://ramp.com/expense-management, checked 2026-11-14)
+- [Section heading plus sub] "Let Ramp capture receipts, fill memos, and approve in real time." / "Free your team from manual work." (Source: https://ramp.com/expense-management, checked 2026-11-14)
+- [Column labels] "The old way." / "The Ramp way." (comparison content not present as text) (Source: https://ramp.com/expense-management, checked 2026-11-14)
+- [Claims] "Control spend before it happens." / "Give employees cards with policies built in, so you can prevent unapproved spend." (Source: https://ramp.com/expense-management, checked 2026-11-14)
+- [Claims] "Your finance assistant, always on." / "Chat with Ramp to ask what’s in policy, request funds, or resolve card issues - all in natural language as you would a teammate." (Source: https://ramp.com/expense-management, checked 2026-11-14)
+- [Claims] "Catch out-of-policy spend without reviewing every line." / "Let Ramp’s policy agent review 100% of your expenses, approve what’s compliant, and only flag what needs your attention—always with direct reference to your policy and a full audit trail." (Source: https://ramp.com/expense-management, checked 2026-11-14)
+- [Claim] "Enforce policies without the hassle." / "Ramp handles employee reminders, requests missing details, processes repayment, and even locks cards so you don’t have to play bad cop." (Source: https://ramp.com/expense-management, checked 2026-11-14)
+
+### 3.3 Bill Pay and accounts payable (https://ramp.com/accounts-payable; /bill-pay redirects here)
+
+- [Title tag] "Ramp Bill Pay: Accounts Payable Automation Software" (Source: https://ramp.com/accounts-payable, checked 2026-11-14)
+- [Meta description] "Automate accounts payable with Ramp Bill Pay—autonomous AP automation software with AI agents for touchless invoice processing, 2.4x faster than legacy tools." (Source: https://ramp.com/accounts-payable, checked 2026-11-14)
+- [H1] "A month of AP done in minutes." (Source: https://ramp.com/accounts-payable, checked 2026-11-14)
+- [Subheadline] "Process bills, accelerate approvals, and manage cash flow 2.4x faster than legacy software." (Source: https://ramp.com/accounts-payable, checked 2026-11-14)
+- [Proof line] "Join 85,000+ businesses running on Ramp." (Source: https://ramp.com/accounts-payable, checked 2026-11-14)
+- [Section headings] "Drag, drop, done."; "AP in the age of AI."; "Fewer clicks. Faster close."; "Customization that keeps you in control."; "Your AP software should pay you back."; "Automate 1099s from start to finish" (Source: https://ramp.com/accounts-payable, checked 2026-11-14)
+- [Claims] "Ramp’s OCR captures each detail and line item with 99% accuracy." / "Our agent learns from your past invoices and applies your logic instantly, across hundreds of line items." (Source: https://ramp.com/accounts-payable, checked 2026-11-14)
+- [Stat blocks as served] "Up to" "7x" "fewer clicks to process a bill vs Bill.com1"; "95%" "of businesses reported improved visibility2"; "2.4x" "faster invoice processing than legacy software.3" (Source: https://ramp.com/accounts-payable, checked 2026-11-14)
+- [Footnotes] "1. Based on internal product testing performed in September’25, evaluating the number of clicks used to process a typical invoice"; "2. Based on Ramp’s customer survey collected in May’25"; "3. Based on Ramp's customer survey collected in May’25" (Source: https://ramp.com/accounts-payable, checked 2026-11-14)
+- [Claim] "Ramp’s agent spots card-eligible vendors and submits payments for you." (Source: https://ramp.com/accounts-payable, checked 2026-11-14)
+- [Agent names in FAQ] "Auto-coding agent", "Fraud prevention agent", "Approval agent", "Automatic payment agent" (Source: https://ramp.com/accounts-payable, checked 2026-11-14)
+
+### 3.4 Procurement (https://ramp.com/procurement)
+
+- [Title tag] "AI Purchasing Software: End-to-End Approval Management" (Source: https://ramp.com/procurement, checked 2026-11-14)
+- [Meta description] "Purchasing software that automates approvals & manages spend from request to payment. AI-powered purchasing made easy for companies without a procurement team." (Source: https://ramp.com/procurement, checked 2026-11-14)
+- [H1] "Buy at the speed of AI" (Source: https://ramp.com/procurement, checked 2026-11-14)
+- [Subheadline] "AI agents handle purchasing from source to payment. Employees buy faster. Finance controls every dollar." (Source: https://ramp.com/procurement, checked 2026-11-14)
+- [Stat blocks] "16%" "Annual savings on vendor spend*"; "46 hrs" "Saved per month with AI Agents**"; "3x" "Faster approvals***" (Source: https://ramp.com/procurement, checked 2026-11-14)
+- [Footnotes] "*Based on Ramp customer data. Numbers presented are median figures; individual results will vary."; "**Based on Ramp analysis of mid-market procurement workflows. Includes planned features. Individual results will vary." (Source: https://ramp.com/procurement, checked 2026-11-14)
+- [Section headings] "Meet your new purchasing team."; "Just ask Ramp."; "Every stakeholder review. Already done."; "Renew on your terms."; "Every dollar matched. Every error caught." (Source: https://ramp.com/procurement, checked 2026-11-14)
+- [Claims] "Ramp's agents move you from reactive to proactive purchasing — automatically. No spend slips through without sign-off."; "Don’t get overbilled a cent."; "Most tools only match bills to POs. Ramp matches card transactions automatically." (Source: https://ramp.com/procurement, checked 2026-11-14)
+
+### 3.5 Travel (https://ramp.com/travel)
+
+- [Title tag] "Corporate Travel Booking & Management Platform" (Source: https://ramp.com/travel, checked 2026-11-14)
+- [Meta description] "Ramp's corporate travel booking platform works with its powerful automated expense management to help admins and employees manage business travel." (Source: https://ramp.com/travel, checked 2026-11-14)
+- [H1] "Corporate travel without the usual baggage" (Source: https://ramp.com/travel, checked 2026-11-14)
+- [Subheadline] "Ramp enforces policy at booking, reconciles expenses automatically, and finds extra savings." (Source: https://ramp.com/travel, checked 2026-11-14)
+- [Section heading] "Policy is built in and expenses are handled for you – before, during, and after your trip." (Source: https://ramp.com/travel, checked 2026-11-14)
+- [Claims] "Book travel without second-guessing."; "Know what you can spend — before you spend it."; "Leave your computer in the hotel room."; "No receipt searching, saving, or uploads required." (Source: https://ramp.com/travel, checked 2026-11-14)
+- [Claim] "Ramp monitors hotel rates and automatically rebooks if the price decreases by $50+. No refreshing. No rechecking. Just savings." (Source: https://ramp.com/travel, checked 2026-11-14)
+
+### 3.6 Accounting automation and Stack (https://ramp.com/accounting-automation-software, https://ramp.com/stack)
+
+- [Title tag] "AI-Powered Accounting Automation Software | Ramp" (Source: https://ramp.com/accounting-automation-software, checked 2026-11-14)
+- [Meta description] "Close your books 3x faster with Ramp's AI-powered accounting automation. Auto-sync routine transactions and review only what needs human judgment." (Source: https://ramp.com/accounting-automation-software, checked 2026-11-14)
+- [H1] "Close your books 3x faster." (Source: https://ramp.com/accounting-automation-software, checked 2026-11-14)
+- [Subheadline] "Ramp’s AI auto-codes spend, surfaces what needs review, and syncs to your ERP in real time." (Source: https://ramp.com/accounting-automation-software, checked 2026-11-14)
+- [Section headings] "From spend to sync—without manual handoffs."; "Multiply speed. Multiply accuracy. Multiply control."; "Less manual coding. Less cleanup. Less manual review."; "Cut the busywork tax from coding, review, sync, and month-end close."; "Real-time close."; "Prioritize what needs judgment." (Source: https://ramp.com/accounting-automation-software, checked 2026-11-14)
+- [Stat blocks] "Up to" "3.5x" "more fully-automated codings than legacy tools¹"; "70%" "fewer corrections as Ramp learns your nuances²"; "98%" "accuracy on Ramp’s ready-to-sync decisions³" (Source: https://ramp.com/accounting-automation-software, checked 2026-11-14)
+- [Footnote 1] "Based on measured product usage from customers with early access to Ramp’s Accounting Agent, compared against legacy-tool automation rates reported by survey respondents (November 2025)." (Source: https://ramp.com/accounting-automation-software, checked 2026-11-14)
+- [Claim] "Ramp supports 30+ ERPs and complex setups—multi-entity, multi-currency, custom fields, and custom dimensions—so you can scale without manual work or messy reconciliations." (Source: https://ramp.com/accounting-automation-software, checked 2026-11-14)
+- [Stack, title tag] "AI Platform for Accounting Teams | Ramp Stack" (Source: https://ramp.com/stack, checked 2026-11-14)
+- [Stack, meta description] "Ramp Stack runs bookkeeping, reconciliations, and month-end close for accounting firms and teams, with accountant sign-off. Multiply your capacity." (Source: https://ramp.com/stack, checked 2026-11-14)
+- [Stack, H1 and subhead] "What’s in your Stack?" / "Stack is the AI operating system for today’s top finance teams." (Source: https://ramp.com/stack, checked 2026-11-14)
+- [Stack, section headings] "Set up fast. Scale even faster."; "Your work. Your way."; "Outperforms leading general-purpose AI agents on real-world accounting tasks."; "Auditable. Private. Secured." (Source: https://ramp.com/stack, checked 2026-11-14)
+- [Stack, stats] "Up to" "60%" "faster closes for clients."; "9x" "faster recurring schedules and reconciliations." (Source: https://ramp.com/stack, checked 2026-11-14)
+- [Stack, tagline under "Built alongside accountants."] "Built alongside accountants. Trained on real closes." (Source: https://ramp.com/stack, checked 2026-11-14)
+
+### 3.7 Banking and treasury (https://ramp.com/business-banking)
+
+- [Title tag] "Ramp Banking: Business Checking & Investment Accounts" (Source: https://ramp.com/business-banking, checked 2026-11-14)
+- [Meta description] "Ramp Banking gives your business an FDIC-insured checking account with no fees and an investment account that earns yield on idle cash." (Source: https://ramp.com/business-banking, checked 2026-11-14)
+- [Headline line above the hero text] "Business banking that works for you." (Source: https://ramp.com/business-banking, checked 2026-11-14)
+- [Hero text, assembled] "Pay instantly from a Checking Account* with 2% APY1 while reserve cash earns up to 4.73%2 in an Investment Account†." (Source: https://ramp.com/business-banking, checked 2026-11-14)
+- [Disclaimer line] "Ramp is a fintech company, not a bank. Checking Account deposit services provided by First Internet Bank of Indiana, Member FDIC. Investment Account is not a bank deposit, not FDIC-insured, and may lose value." (Source: https://ramp.com/business-banking, checked 2026-11-14)
+- [Proof line] "Join the 85,000 businesses making their money do more with Ramp." (Source: https://ramp.com/business-banking, checked 2026-11-14)
+- [Section headings] "High yield. Fast Liquidity. No idle cash."; "Business Checking* built for ease, speed, and safety."; "The Investment Account† that puts idle cash to work."; "Fast payments. Low fees. Full control."; "One platform > Multiple apps" (Source: https://ramp.com/business-banking, checked 2026-11-14)
+- [Claims] "Two accounts that don’t make you choose between paying on time or investing your cash."; "80%" "of bank transfers automated4"; "Instant" "bill payments"; "100%" "of Ramp payments auto-reconciled" (Source: https://ramp.com/business-banking, checked 2026-11-14)
+- [Claim] "Cash, cards, payments, and investments all on one platform with one easy login." (Source: https://ramp.com/business-banking, checked 2026-11-14)
+- [Stat blocks] "20,000+" "companies running cash on Ramp"; "$5B+" "total assets under management and administration"; "$2B" "in payments processed" (footnote on page: "Total customer balances held across Ramp Checking and Investment accounts as of 11/13/2026. This is not the regulatory assets under management of any investment adviser.") (Source: https://ramp.com/business-banking, checked 2026-11-14)
+
+### 3.8 AI: Intelligence, agents, AI Spend Management, Router
+
+- [Intelligence, title tag] "10X your team's impact with AI for finance | Ramp Intelligence" (Source: https://ramp.com/intelligence, checked 2026-11-14)
+- [Intelligence, meta description] "Ramp's AI-powered finance automation software handles manual tasks, eliminates errors, and uncovers insights across expense management, accounts payable, and more." (Source: https://ramp.com/intelligence, checked 2026-11-14)
+- [Intelligence, H1 then H2 then subhead] "Ramp Intelligence" / "Meet your next million hires." / "Ramp’s AI agents multiply your output, not your headcount." (Source: https://ramp.com/intelligence, checked 2026-11-14)
+- [Intelligence, proof line] "Over 85,000 finance teams are already living in the future." (Source: https://ramp.com/intelligence, checked 2026-11-14)
+- [Intelligence, claim] "Developed by CFOs and controllers, our AI agents are refined through patterns and learnings from over 85,000 Ramp customers." (Source: https://ramp.com/intelligence, checked 2026-11-14)
+- [Intelligence, claim] "Ramp gives you infinite teammates who work around the clock—flagging fraud, coding expenses, and enforcing policy." (Source: https://ramp.com/intelligence, checked 2026-11-14)
+- [Intelligence, three promises] "Autonomous and ready to work."; "Trained on your policy and controls."; "Knows when to act, and when to ask." (Source: https://ramp.com/intelligence, checked 2026-11-14)
+- [Intelligence, section headings] "Your policy, auto-enforced."; "Approves when it’s safe. Escalates when it’s not."; "Answers “is this in policy?” with a text."; "Savings, found for you."; "Catch fraud before it costs you."; "Routine tasks, handled for you."; "Never chase another receipt." (Source: https://ramp.com/intelligence, checked 2026-11-14)
+- [Intelligence, stats] "75%" "reduction in credit card reconciliation time"; "$250K" "savings identified by Ramp’s insight tool"; "90%" "of transactions auto-coded by Ramp"; "5X" "faster transaction review time" (Source: https://ramp.com/intelligence, checked 2026-11-14)
+- [Ramp for Agents, title tag and meta description] "Finance for the Agent Economy · Ramp"; "Ramp helps agents buy, pay, procure, and complete work for the business with the controls finance teams need." (Source: https://agents.ramp.com/, checked 2026-11-14)
+- [Ramp for Agents, H1 and sub] "Finance for companies that run on agents" / "Cards, expenses, bill payments, banking, travel, and AI spend. Built for agents to use and finance teams to control." (Source: https://agents.ramp.com/, checked 2026-11-14)
+- [Ramp for Agents, section] "We’ve all got new coworkers" / "Agents are becoming part of how companies get work done. Ramp gives each one an identity, an owner, a budget, and approved ways to pay, with every action recorded as it happens." (Source: https://agents.ramp.com/, checked 2026-11-14)
+- [Ramp for Agents, sub-headings] "Let agents act with the right identity."; "Let agents move money, safely."; "Connect on your terms." (Source: https://agents.ramp.com/, checked 2026-11-14)
+- [AI Spend Management, title tag] "AI Spend Management | Track Token Usage & Spend by Provider, Model, and User | Ramp" (Source: https://ramp.com/ai-cost-monitoring, checked 2026-11-14)
+- [AI Spend Management, meta description] "See every AI dollar across providers in one place. Ramp helps finance teams track AI spend in real time, understand what changed, find savings opportunities, and set alerts and limits on every key." (Source: https://ramp.com/ai-cost-monitoring, checked 2026-11-14)
+- [AI Spend Management, H1, two lines run together as served] "See every token.Control every dollar." (Source: https://ramp.com/ai-cost-monitoring, checked 2026-11-14)
+- [AI Spend Management, subhead] "See every AI dollar in one place, explain what changed, and act on savings so every dollar goes further without slowing your teams down." (Source: https://ramp.com/ai-cost-monitoring, checked 2026-11-14)
+- [AI Spend Management, section heading and verbs] "Get ahead of your fastest growing line item." with "See it", "Understand it", "Control it", "Optimize it" (Source: https://ramp.com/ai-cost-monitoring, checked 2026-11-14)
+- [AI Spend Management, claims] "Trusted by 2,900+ businesses using Ramp's AI Spend Management to scale AI spend."; "400T+" "tokens tracked in the last 30 days, so you benchmark against real spend" "(as of Nov '26)"; "1 in 2" "businesses find a lower-cost model alternative"; "7 in 10" "customers paid less per token last quarter, even as their usage grew" (Source: https://ramp.com/ai-cost-monitoring, checked 2026-11-14)
+- [AI Spend Management, claim] "Ramp cut its own AI costs by ~30%." (Source: https://ramp.com/ai-cost-monitoring, checked 2026-11-14)
+- [Router, blog title tag and meta description] "Introducing Ramp Router: Change AI Models Without Rebuilding"; "Ramp Router gives developers one API to evaluate and route across AI models without rebuilding their application. It cut Ramp’s own AI costs by 30%." (Source: https://ramp.com/blog/router-launch, checked 2026-11-14)
+- [Router, press release listing blurb] "Ramp today launched Router.com, a single endpoint to every major AI model. Each request is routed to the lowest-cost model that meets the required..." (Source: https://www.prnewswire.com/news/ramp/, checked 2026-11-14)
+
+### 3.9 Pricing (https://ramp.com/pricing)
+
+- [Title tag] "Ramp Pricing and Plans" (Source: https://ramp.com/pricing, checked 2026-11-14)
+- [Meta description] "Start for free with plans to help any business save time and money." (Source: https://ramp.com/pricing, checked 2026-11-14)
+- [H1] "Start for free. Scale with Intelligence." (Source: https://ramp.com/pricing, checked 2026-11-14)
+- [Subheadline] "Whether you’re a startup, global enterprise, or somewhere in between, Ramp is designed to save you time and money." (Source: https://ramp.com/pricing, checked 2026-11-14)
+- [Free plan] Badge "AI-assisted"; "Free"; "$0/mo/user"; "Best for smaller teams who want to simplify finances."; CTA "Get started for free" (Source: https://ramp.com/pricing, checked 2026-11-14)
+- [Plus plan] Badge "AI-powered"; "Plus"; "$15/mo/user"; "+ Platform fee based on team size"; "Save 20% with annual billing"; "Perfect for teams who want to use AI-driven automation to eliminate busywork."; CTA "Get started for free" (Source: https://ramp.com/pricing, checked 2026-11-14)
+- [Enterprise plan] Badge "AI-tailored"; "Enterprise"; "Custom"; "Annual billing"; "Specifically made for teams who need full customization."; CTA "Contact sales" (Source: https://ramp.com/pricing, checked 2026-11-14)
+- [Key feature lines] "Auto-receipt collection and matching"; "Unlimited cards"; "Free wires and same-day ACH via Bill Pay4"; "AI coding for every field"; "Auto-lock cards when compliance is unmet"; "AI-driven expense reviews and policy insights" (Source: https://ramp.com/pricing, checked 2026-11-14)
+- [Mid-page proof] "85,000+ finance teams have saved millions of hours with Ramp." (Source: https://ramp.com/pricing, checked 2026-11-14)
+- [Closing] "Time is money. Save both." (Source: https://ramp.com/pricing, checked 2026-11-14)
+
+### 3.10 Integrations (https://ramp.com/integrations)
+
+- [Title tag] "Ramp Spend & Finance Automation Integrations" (Source: https://ramp.com/integrations, checked 2026-11-14)
+- [Meta description] "Ramp's finance automation integrations connect your entire stack—accounting, HR, procurement, travel, and more—to eliminate manual work across every workflow." (Source: https://ramp.com/integrations, checked 2026-11-14)
+- [H1 and sub] "Explore Integrations" / "Ramp integrates with your entire finance tech stack, saving your team hours of time on manual processes." (Source: https://ramp.com/integrations, checked 2026-11-14)
+- [Count on page] "127 Integrations" (listing counter on this page; the homepage and cards page say "200+ Integrations") (Source: https://ramp.com/integrations, checked 2026-11-14)
+- [Bottom heading and sub] "Let’s make automating your workflows easier, together." / "Tell us which integrations would improve your experience—we’re ready to build them." (Source: https://ramp.com/integrations, checked 2026-11-14)
+
+### 3.11 Other product and platform pages
+
+- [Spend management, H1 and sub] "Smarter spend management software for total control." / "From cards to reimbursements, track, analyze, and reduce company spend with powerful automation and built-in controls." (Source: https://ramp.com/spend-management, checked 2026-11-14)
+- [Spend management, three promises] "Spend controls that work automatically."; "Expenses that handle themselves."; "See spend in real time." (Source: https://ramp.com/spend-management, checked 2026-11-14)
+- [Platform, H1 and H2] "Power your finance operations on one intuitive platform" / "All-in-one spend management, powerful price intelligence, and advanced automation" (Source: https://ramp.com/platform, checked 2026-11-14)
+- [Platform, meta description] "Power your finance operations with one platform that has everything your finance team needs to save time and money. Ramp has all-in-one spend management, price intelligence, and advanced finance automation so you get the best pricing, prevent overspending, and focus on what matters." (Source: https://ramp.com/platform, checked 2026-11-14)
+- [Budgets, H1 and sub] "Track budgets vs. actuals in real time." / "Empower your team with live budget tracking across every card swipe, bill paid, and PO committed." (Source: https://ramp.com/budgets, checked 2026-11-14)
+- [Budgets, headings] "Stop hoping, start knowing."; "Stop approving spend you'll regret."; "Spot overspend before it snowballs." (Source: https://ramp.com/budgets, checked 2026-11-14)
+- [Reimbursements, H1 and sub] "Fast and reliable reimbursements" / "Pay back employees for out-of-pocket expenses made anywhere in the world." (Source: https://ramp.com/reimbursements, checked 2026-11-14)
+- [Vendor management, H1 and sub] "A single, holistic view of your vendors" / "Track all your vendor data and discover pricing insights in one convenient place." (Source: https://ramp.com/vendor-management, checked 2026-11-14)
+- [Vendor management, product names on page] "License Intelligence", "Price Intelligence" (Source: https://ramp.com/vendor-management, checked 2026-11-14)
+- [Reporting, H1 and sub] "One platform for all finance decisions." / "Reporting stays connected across spend, AP and procurement, so you can make decisions without switching tools." (Source: https://ramp.com/reporting, checked 2026-11-14)
+- [Reporting, heading] "Ask. Refine. Decide. Instantly." (Source: https://ramp.com/reporting, checked 2026-11-14)
+- [Virtual cards, H1 and sub] "Unlimited virtual credit cards for your business." / "Generate virtual credit cards instantly for any vendor, team, or subscription. Set spending limits, control access, and reduce fraud while staying in control of company spend." (Source: https://ramp.com/virtual-cards, checked 2026-11-14)
+- [Mobile app, H1 and sub] "Keep spend moving with Ramp mobile." / "Approve a request, add a receipt, or lock a missing card from your phone, wherever work takes you." (Source: https://ramp.com/mobile-app, checked 2026-11-14)
+- [Security, H1 and sub] "Peace of mind at every step" / "From onboarding new employees to issuing cards and managing financial data, Ramp has security built in every step of the way." (Source: https://ramp.com/security, checked 2026-11-14)
+- [Ramp Sheets, H1] "The #1 AI spreadsheet editor, built for financial modeling and analysis" (Source: https://ramp.com/sheets, checked 2026-11-14)
+- [Ramp Sheets, line] "Ramp Sheets automates your spreadsheet work, saving you time, money and stress." (Source: https://ramp.com/sheets, checked 2026-11-14)
+- [Rewards, H1] "Access over $350,000 in partner rewards." (Source: https://ramp.com/rewards, checked 2026-11-14)
+- [Savings calculator, H1 and meta] "See how much Ramp can save you"; "See how Ramp can help you save an average of 7.5% by spending less time and money across your entire business." (Source: https://ramp.com/savings-calculator, checked 2026-11-14)
+- [Customers page, H1 and line] "Customer Stories" / "85,000+ companies spend less, close faster, and finance smarter on Ramp:" (Source: https://ramp.com/customers, checked 2026-11-14)
+
+### 3.12 Segment pages
+
+- [Startups, H1 and H2] "Ramp Finance for Startups" / "Put your runway to work" (Source: https://ramp.com/startups, checked 2026-11-14)
+- [Startups, section heading] "Built for building, not busywork" / "Every dollar should work as hard as you do." (Source: https://ramp.com/startups, checked 2026-11-14)
+- [Startups, claim] "More than half of the companies in the Forbes AI 50 run on Ramp" (Source: https://ramp.com/startups, checked 2026-11-14)
+- [Small business, H1 and sub] "Stop stitching together five tools to run your finances." / "Ramp gives small businesses corporate cards, invoice processing, receipt capture, and real-time accounting sync in a single platform. No manual entry. No wasted hours." (Source: https://ramp.com/small-business, checked 2026-11-14)
+- [Small business, heading] "A card that works for your small business." / "Most small business cards put your personal credit on the line. Ramp gives you spending power, controls, and cashback—no personal guarantee." (Source: https://ramp.com/small-business, checked 2026-11-14)
+- [Mid-market, H1 and sub] "Your whole finance stack in one place. Faster close. Same team." / "Ramp gives mid-market teams accounting automation, procurement, AP, and cards that work as one system. Transactions code themselves, approvals route themselves, and close takes days—not weeks." (Source: https://ramp.com/mid-market, checked 2026-11-14)
+- [Enterprise, H1 and sub] "The future of enterprise spend management is here." / "Ramp unifies cards and expenses for enterprise-grade visibility and control, across your global workforce." (Source: https://ramp.com/enterprise, checked 2026-11-14)
+- [Enterprise, line] "From private multinationals to the Fortune 500, join 85,000+ businesses on Ramp" (Source: https://ramp.com/enterprise, checked 2026-11-14)
+- [Enterprise, headings] "Expenses without reports. Visibility without delays."; "$10 billion and 27.5 million hours saved." (Source: https://ramp.com/enterprise, checked 2026-11-14)
+
+---
+
+## 4. Taglines and slogans
+
+### 4.1 Current slogan: where "Time is money. Save both." appears
+
+- "Time is money. Save both." is the homepage H1 and also the closing H2 above the footer on 25 of the 33 ramp.com pages checked: about-us, accounting-automation-software, accounts-payable, ai-cost-monitoring, budgets, corporate-cards, enterprise, expense-management, index (homepage), integrations, intelligence, multi-entity, platform, pricing, reimbursements, reporting, rewards, savings-calculator, spend-management, streamlined-approvals, travel, business-banking, vendor-management, versus, virtual-cards. (Source: https://ramp.com/ and the page paths above under https://ramp.com/, checked 2026-11-14)
+- [Google Play listing, meta description and body line] "Time is money. Save both" (no final period) (Source: https://play.google.com/store/apps/details?id=com.ramp.android.app, checked 2026-11-14)
+- [2024 press release boilerplate opening] "We believe in the adage, time is money." (Source: https://www.prnewswire.com/news-releases/ramp-launches-app-center-pioneering-an-open-ecosystem-for-financial-operations-302285401.html, checked 2026-11-14)
+- [Homepage CTA label under "One platform for all of finance."] "Switch in days, not months" (Source: https://ramp.com/, checked 2026-11-14)
+- [Homepage top banner] "Ramp raises $1.85B to get you more from every dollar, hour, and token." (Source: https://ramp.com/, checked 2026-11-14)
+- [Press release subtitle, Oct 15, 2026] "Raises $1.85 billion to help businesses get more value from every dollar, hour and token" (Source: https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html, checked 2026-11-14)
+- [Blog banner shown on several posts] "Spending made smarter" / "Easy-to-use cards, funds, approval flows, vendor payments —plus an average savings of 7.5%.1" with "2,000+" "5 star reviews" (Source: https://ramp.com/blog/welcoming-my-co-founder-karim-as-co-ceo-of-ramp, checked 2026-11-14)
+- [Glass launch post, closing line] "More done. Less spent. That’s Ramp since day 1." (Source: https://ramp.com/blog/introducing-glass, checked 2026-11-14)
+
+### 4.2 Homepage headline history (Wayback Machine captures of ramp.com, Ramp's own page text at the capture date)
+
+- 2021-03-04 capture. [Title tag] "Ramp | The Corporate Card Built for Savings". [H1, two lines] "Time is money." / "Save both." [Sub, assembled] "Meet the only spend management platform and corporate card that can automate your accounting and lower your bills – in under 15 minutes." [Meta description] "Grow more. Waste less. Enterprise corporate cards built from the ground up to save your company money: issue unlimited cards and eliminate overspend with our advanced savings reports and 1.5% cash back on everything." (Source: https://web.archive.org/web/20210304014646/https://ramp.com/, checked 2026-11-14)
+- 2022-03-02 capture. [Title tag] "Ramp - The Corporate Card That Helps You Spend Less". [H1] "Time Is Money. Save Both." [Meta description] same "Grow more. Waste less." text as 2021. [Sub-headings] "Up to 20x higher limits."; "Unlimited instant cards."; "No founder guarantee."; "Unlimited receipt matching." (Source: https://web.archive.org/web/20220302014725/https://ramp.com/, checked 2026-11-14)
+- 2023-02-28 capture. [Title tag] "Ramp | Corporate Cards and Finance Automation That Scales". [Meta description] "Join thousands of forward-thinking businesses using Ramp to control spend, save time, and automate busywork." [H1, assembled] "Spending, simplified". [Sub] "Easy-to-use cards, spend limits, approval flows, vendor payments, and more—plus an average savings of 3.5%." [Social proof] "Trusted by 13,000+ businesses". [Headings] "Effortless expenses."; "Global spend, all in one place."; "Time is money. Save both." (Source: https://web.archive.org/web/20230228200828/https://ramp.com/, checked 2026-11-14)
+- 2024-03-01 capture. [Title tag] "Spend Management, Corporate Cards & Accounts Payable Solutions | Ramp". [H1] "Spending made smarter". [Sub] "Easy-to-use cards, spend limits, approval flows, vendor payments, and more" "— plus an average savings of 5%". [Headings] "The card is just the start"; "Save an average of 5%"; "Built to scale with you"; "Modern finance teams run on Ramp"; "Time is money." (Source: https://web.archive.org/web/20240301020542/https://ramp.com/, checked 2026-11-14)
+- 2025-03-01 and 2025-09-02 captures. [H1] "Time is money. Save both." [Headings] "Get to know Ramp"; "Don't just take our word for it."; "Here’s what you can get done with Ramp in just 30 days."; "Three* ways we save your company both time and money."; "For startups, global enterprises, and everyone in between."; "What would you do with more time?" (Source: https://web.archive.org/web/20250902182637/https://ramp.com/, checked 2026-11-14)
+- 2026-11-14 live page. [H1] "Time is money. Save both." [Sub] "Cards, expenses, bill payments, and banking* – in the blink of AI." (Source: https://ramp.com/, checked 2026-11-14)
+- INFERRED: the pairing "Time is money. Save both." is the H1 or a headline in the 2021, 2022, 2023 (heading), 2025 and 2026 captures; the 2023 and 2024 captures lead with "Spending, simplified" and "Spending made smarter" and carry "Time is money" lower on the page.
+
+### 4.3 Social bios, app stores and boilerplates used as descriptions
+
+- [LinkedIn company page, description shown in meta] "The AI finance platform that saves businesses time and money. Trusted by 85,000+ teams." followed by "Ramp is an all-in-one financial operations platform designed to save businesses time and money. Combining corporate cards, expense management, bill payments, accounting automation, procurement, travel, treasury, and more, Ramp empowers finance teams to do their best work." followed by "More than 70,000 companies, from family-owned farms to space startups, have saved $10B and 27.5M hours with Ramp since its founding in 2019." (Source: https://www.linkedin.com/company/ramp, checked 2026-11-14)
+- [X profile @tryramp, bio shown in meta description] "The AI finance platform that saves your business time and money. Trusted by 85,000+ teams." (Source: https://x.com/tryramp, checked 2026-11-14)
+- [YouTube channel description, og:description] "Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence and controls to maximize the impact of every dollar and hour spent. Over 40,000 customers, from family farms to space startups, have saved $10 billion and 27.5 million hours with Ramp. Founded in 2019, Ramp enables tens of billions in purchases annually. Learn more at www.ramp.com." (Source: https://www.youtube.com/@tryramp, checked 2026-11-14)
+- [Apple App Store, description] "Ramp is the finance automation platform designed to save you time and money. With Ramp you get corporate cards, expense management, bill payments, accounting automation and reporting—all in one easy-to-use solution. Ramp Mobile puts finance automation in your pocket." (Source: https://apps.apple.com/us/app/ramp/id1628197245, checked 2026-11-14)
+- [Apple App Store, version note] "Ramp is always improving so you can save valuable time and money. This release runs smoother than ever with new bug fixes and improvements." (Source: https://apps.apple.com/us/app/ramp/id1628197245, checked 2026-11-14)
+- [Google Play, description opening] "Ramp is the finance automation platform designed to save you time and money." (Source: https://play.google.com/store/apps/details?id=com.ramp.android.app, checked 2026-11-14)
+- [Labs] "The home for AI research at Ramp" (og:description of Ramp Labs) (Source: https://labs.ramp.com/, checked 2026-11-14)
+- [Facebook, Instagram, TikTok bios] Not found (pages returned errors or no text to a plain fetch).
+- [Apple App Store subtitle] Not found.
+
+### 4.4 Ad campaigns and campaign copy
+
+- [Ramp's own words on its first Super Bowl ad, blog by Eric Glyman, Feb 5, 2025] "The team came up with a purposefully absurd scene: show Saquon buried in a mountain of expense reports instead of doing what he does best – playing football. Clearly a bad use of talent!" (Source: https://ramp.com/blog/welcoming-the-nfls-saquon-barkley-to-the-ramp-roster, checked 2026-11-14)
+- [Same post] "The same goes for companies. Let teams do what they were hired to do, not waste their time on financial busywork." (Source: https://ramp.com/blog/welcoming-the-nfls-saquon-barkley-to-the-ramp-roster, checked 2026-11-14)
+- [Same post] "And, true to both of our DNA, we pulled together our first Super Bowl ad in less than a week." (Source: https://ramp.com/blog/welcoming-the-nfls-saquon-barkley-to-the-ramp-roster, checked 2026-11-14)
+- [Same post] "Seeing Saquon put his team’s playoff run ahead of an individual all-time rushing record was a masterclass in leadership. Ramp lives by the same playbook. We put our customers’ long-term success first, helping them spend less – even if that sometimes comes at the cost of our own short-term profit." (Source: https://ramp.com/blog/welcoming-the-nfls-saquon-barkley-to-the-ramp-roster, checked 2026-11-14)
+- [Third-party ad-industry listing title for the 2025 spot, LBB, dated 30/04/2026] "Ramp.com - Expenses Should Do Themselves feat. Saquon Barkley (Super Bowl Ad)" (Source: https://lbbonline.com/work/167198, checked 2026-11-14)
+- [Third-party description of the 2026 Super Bowl spot, Ads of the World, not Ramp's words] "Brian Baumgartner returns as the “World’s Most Famous Accountant” in Ramp’s Super Bowl spot, this time joined by an army of uncanny doubles. Titled ‘Multiply What’s Possible’, the 30-second film was created in-house by Ramp, directed by Randall Einhorn through Radical Media, with VFX by Framestore." (Source: https://www.adsoftheworld.com/campaigns/multiply-what-s-possible, checked 2026-11-14)
+- [Same third-party page, campaign extension] "The campaign builds on Ramp’s Super Bowl debut last year and its viral ‘Brian’s First Day as a CFO’ stunt. It extends beyond TV with social content featuring Andy Buckley and live activations around Super Bowl LX, including a public Brian lookalike tailgate, a road trip to Levi’s Stadium, and live streaming on X." (Source: https://www.adsoftheworld.com/campaigns/multiply-what-s-possible, checked 2026-11-14)
+- [Third-party, Framestore project page] "For Ramp’s Big Game spot, Brian Baumgartner (literally) makes some copies." (Source: https://www.framestore.com/work/multiply-whats-possible, checked 2026-11-14)
+- [Third-party, Marketing Brew headline and standfirst, Oct 22, 2025] "Inside the making of Ramp’s viral livestream with Brian Baumgartner" / "The B2B expense management platform planned an experiential activation that drew some 10,000 in-person attendees." (Source: https://marketingbrew.com/stories/2025/10/22/ramp-viral-livestream-brian-baumgartner, checked 2026-11-14)
+- [Ramp's own careers page references] "Name another tech company that locks Brian Baumgartner in a box with 600,000 receipts—or builds its own coding agent." (Source: https://ramp.com/careers, checked 2026-11-14)
+- [Podcast-ad landing page, reached from the vanity path ramp.com/economics, URL tagged utm_medium=paid-podcast, utm_campaign=podcast-250bonus] [H1] "Business cards that provide spend visibility and control." [Sub] "With accounting integrations that will make you love your ERP again." [CTA] "Apply today - get $250*" [Claims] "5 stars on G2", "7.5% savings1", "No personal credit checks", "Global acceptance" (Source: https://ramp.com/business-cards?utm_source=podcast&utm_medium=paid-podcast&utm_campaign=podcast-250bonus&utm_content=economics, checked 2026-11-14)
+- Billboard, subway and TV on-screen copy from Ramp's own channels: Not found (see Gaps).
+
+---
+
+## 5. Recurring key phrases and vocabulary
+
+Counts below are exact counts of occurrences in the extracted visible text of the 33 ramp.com pages listed under "Method and source notes", taken 2026-11-14. "pages" means number of pages out of 33 where the phrase occurs at least once. Counts include customer testimonials shown on pages and FAQ text. Where a phrase occurs on 14 or fewer pages, the page names are listed.
+
+| Phrase (case-insensitive) | Pages | Total occurrences | Where (when 14 pages or fewer) |
+|---|---|---|---|
+| "Time is money. Save both." | 25 | 25 | see 4.1 |
+| "time and money" | 8 | 8 | enterprise, expense-management, mid-market, platform, pricing, savings-calculator, small-business, startups |
+| "save / saves / saved / saving / savings" | 30 | 108 | |
+| "finance team(s)" | 20 | 44 | about-us, accounting-automation-software, accounts-payable, ai-cost-monitoring, corporate-cards, enterprise, expense-management, index, integrations, intelligence, mid-market, platform, pricing, procurement, reporting, spend-management, stack, startups, versus, virtual-cards |
+| "busywork" | 8 | 8 | accounting-automation-software, accounts-payable, expense-management, index, pricing, procurement, startups, business-banking |
+| "real-time" or "real time" | 21 | 67 | |
+| any form of "automat..." | 26 | 228 | |
+| "control" (incl. controls, controlled) | 26 | 138 | |
+| "guardrail(s)" | 9 | 11 | budgets, corporate-cards, enterprise, expense-management (2), platform (2), spend-management, stack, travel, virtual-cards |
+| "before spend happens" and close variants ("before it happens", "before the money moves") | 4 | 9 | corporate-cards (2), enterprise (2), expense-management (4), small-business (1) |
+| "out-of-policy" | 6 | 14 | corporate-cards (4), enterprise (2), expense-management (4), mid-market (1), platform (1), streamlined-approvals (2) |
+| "one platform", "single platform", "one intuitive platform" | 15 | 25 | |
+| "intuitive" | 6 | 10 | accounting-automation-software (2), accounts-payable (1), corporate-cards (1), index (3), platform (2), travel (1) |
+| "85,000" or "85k" | 11 | 15 | about-us, accounts-payable, budgets, careers, enterprise, expense-management, index (3), intelligence (3), mobile-app, pricing, business-banking |
+| "agent(s)" | 12 | 100 | about-us (1), accounts-payable (20), careers (6), enterprise (8), expense-management (4), index (6), intelligence (24), mid-market (3), pricing (3), procurement (14), spend-management (2), stack (9) |
+| "AI" (whole word) | 17 | 189 | |
+| "legacy" | 7 | 11 | accounting-automation-software, accounts-payable (4), enterprise (2), mid-market, procurement, savings-calculator, startups |
+| "manual" (incl. manually) | 20 | 67 | |
+| "visibility" | 17 | 47 | |
+| "in minutes" | 10 | 15 | accounts-payable (3), budgets (2), mid-market (2), platform, procurement, reporting, small-business (2), stack, startups, business-banking |
+| "no manual", "no more", "no chasing", "no digging", "no refresh...", "no double..." | 13 | 26 | accounting-automation-software, accounts-payable (4), ai-cost-monitoring, budgets (3), expense-management, intelligence (2), mid-market, mobile-app, reporting, small-business (4), spend-management, travel (3), business-banking (3) |
+| "cashback" or "cash back" | 9 | 17 | accounts-payable (2), careers, corporate-cards (2), intelligence, mid-market (2), multi-entity, savings-calculator (3), small-business (4), startups |
+| "strategic", "strategy", "what matters", "higher-value", "focus on" | 15 | 25 | |
+| "close the books", "month-end", "faster close", "close" | 16 | 48 | |
+
+Specific recurring lines and where they sit (each a verbatim quote, counts of pages where the exact line occurs):
+
+- "chase receipts" family: "Spend less time chasing down receipts and more time closing your books." (corporate-cards); "Never chase another receipt." (intelligence, startups); "No more chasing receipts at month-end." (small-business); "No chasing. No one-off emails." (accounts-payable); "Procure to pay" / "without chasing approvals" (index); "no chases, no reminders" (accounting-automation-software); "no switching between tools or chasing reports" (expense-management FAQ). Seen on 8 pages (corporate-cards, intelligence, startups, small-business, accounts-payable, index, accounting-automation-software, expense-management). (Source: https://ramp.com/corporate-cards, https://ramp.com/intelligence, https://ramp.com/startups, https://ramp.com/small-business, https://ramp.com/accounts-payable, https://ramp.com/, https://ramp.com/accounting-automation-software, https://ramp.com/expense-management, checked 2026-11-14)
+- "Let agents handle the busywork." (index); "Free your team from manual work." (expense-management); "Built for building, not busywork" (startups); "Cut the busywork tax from coding, review, sync, and month-end close." (accounting-automation-software); "to eliminate busywork" (pricing, Plus plan). (Source: https://ramp.com/, https://ramp.com/expense-management, https://ramp.com/startups, https://ramp.com/accounting-automation-software, https://ramp.com/pricing, checked 2026-11-14)
+- "Join the 85,000+ businesses ..." family: "Join the 85,000+ businesses simplifying their finances with Ramp." (homepage footer, about-us footer, corporate-cards); "Join the 85,000+ businesses already simplifying their finances." (expense-management); "Join 85,000+ businesses running on Ramp." (accounts-payable, budgets); "Join the 85,000 businesses making their money do more with Ramp." (business-banking). (Source: https://ramp.com/, https://ramp.com/expense-management, https://ramp.com/accounts-payable, https://ramp.com/budgets, https://ramp.com/business-banking, checked 2026-11-14)
+- Savings framing: "Save money and time." (corporate-cards); "saves companies 7.5% on average" (versus/navan); "saving you 7.5%" (versus/sap-concur); "an average of 7.5%" (savings-calculator meta); "Total savings of 7.5% across all your spending" (versus/navan). (Source: https://ramp.com/corporate-cards, https://ramp.com/versus/navan, https://ramp.com/versus/sap-concur, https://ramp.com/savings-calculator, checked 2026-11-14)
+- INFERRED, structural pattern across quotes: many headlines and subheads are two or three short sentences or fragments in a row, for example "Time is money. Save both."; "Scale the team. Shrink the paperwork."; "Employees buy faster. Finance controls every dollar."; "No refreshing. No rechecking. Just savings."; "Multiply speed. Multiply accuracy. Multiply control."; "Fast payments. Low fees. Full control."; "Ask. Refine. Decide. Instantly."; "See every token.Control every dollar." (Source: https://ramp.com/, https://ramp.com/procurement, https://ramp.com/travel, https://ramp.com/accounting-automation-software, https://ramp.com/business-banking, https://ramp.com/reporting, https://ramp.com/ai-cost-monitoring, checked 2026-11-14)
+
+How Ramp refers to the product category (exact phrases and where, from title, meta and body text):
+
+- "spend management platform": homepage meta description ("Ramp's spend management platform"), enterprise, integrations, mid-market. (Source: https://ramp.com/, https://ramp.com/enterprise, https://ramp.com/integrations, https://ramp.com/mid-market, checked 2026-11-14)
+- "spend management software": spend-management (4), mid-market (2), enterprise, savings-calculator. (Source: https://ramp.com/spend-management, https://ramp.com/mid-market, https://ramp.com/enterprise, https://ramp.com/savings-calculator, checked 2026-11-14)
+- "all-in-one": about-us ("Ramp's all-in-one solution"), careers ("all-in-one AI finance platform"), platform (2, "All-in-one spend management, powerful price intelligence, and advanced automation"), small-business (2). (Source: https://ramp.com/about-us, https://ramp.com/careers, https://ramp.com/platform, https://ramp.com/small-business, checked 2026-11-14)
+- "financial operations platform" / "finance automation platform" / "AI finance platform": not in visible text of the 33 pages as those exact phrases except "all-in-one AI finance platform" (careers); they do appear in boilerplates and bios (sections 4.3 and 8): LinkedIn "all-in-one financial operations platform", press boilerplate 2025 "financial operations platform", app stores "finance automation platform", X and LinkedIn "The AI finance platform". (Source: https://www.linkedin.com/company/ramp, https://x.com/tryramp, https://apps.apple.com/us/app/ramp/id1628197245, checked 2026-11-14)
+- "agentic": accounts-payable, enterprise, index ("One platform for the agentic era."). (Source: https://ramp.com/accounts-payable, https://ramp.com/enterprise, https://ramp.com/, checked 2026-11-14)
+
+---
+
+## 6. Names Ramp gives its products, features and customers
+
+### Product and feature names (exact capitalisation as used on the site)
+
+- "Ramp Intelligence" (https://ramp.com/intelligence; homepage CTAs "Explore Ramp Intelligence", "Learn about Ramp Intelligence")
+- "Ramp Bill Pay" and "Bill Pay" (https://ramp.com/accounts-payable)
+- "Ramp Travel" (https://ramp.com/travel; Prosper quote "With Ramp Travel, it finally does.")
+- "Ramp Procurement" (https://ramp.com/blog/procurement-ai-agents)
+- "Ramp Banking", "Ramp Checking Account", "Investment Account" (also "Ramp Investment Account" on pricing), "Business Checking" (https://ramp.com/business-banking, https://ramp.com/pricing)
+- "Ramp Budgets" and "Budgets" (https://ramp.com/budgets, https://ramp.com/accounts-payable)
+- "Ramp Stack", "Stack by Ramp", "Stack" (https://ramp.com/stack; homepage "Introducing Stack by Ramp.")
+- "Policy Agent" and "Policy Agents" (https://ramp.com/expense-management, https://ramp.com/ (CTA "Learn about Policy Agents"))
+- "Accounting Agent" (https://ramp.com/mid-market, press release Feb 12, 2026 title "Ramp Launches Accounting Agent to Automate Bookkeeping with Real-Time Close")
+- AP agents named on the Bill Pay page: "Auto-coding agent", "Fraud prevention agent", "Approval agent", "Automatic payment agent" (https://ramp.com/accounts-payable)
+- "AI Spend Management" and "AI Token Spend Management" (https://ramp.com/ai-cost-monitoring, https://www.prnewswire.com/news-releases/ramp-launches-ai-token-spend-controls-302827389.html)
+- "Router" and "Ramp Router" and "Router.com" (https://ramp.com/blog/router-launch)
+- "Glass" ("Introducing Glass: Learn things once", "The AI workspace where knowledge compounds") (https://ramp.com/blog/introducing-glass)
+- "Inspect" ("our collaborative coding agent") (https://ramp.com/blog/introducing-inspect)
+- "Ramp AR" and "Ramp Accounts Receivable" and "Accounts Receivable" (https://ramp.com/blog/introducing-accounts-receivable)
+- "Ramp Sheets" (https://ramp.com/sheets)
+- "Ramp for Agents" (https://agents.ramp.com/)
+- "Ramp Applied AI Solutions" and "Applied AI Solutions" (https://ramp.com/blog/introducing-ramp-applied-ai-solutions)
+- "Ramp for Construction", "Ramp for Nonprofits", "Ramp for Public Sector", "Ramp for Startups" (page H1 "Ramp Finance for Startups"), "Ramp for small businesses", "Ramp for mid-market" (https://ramp.com/blog/ramp-for-construction-launch, https://www.prnewswire.com/news/ramp/, https://ramp.com/startups, https://ramp.com/small-business, https://ramp.com/mid-market)
+- "License Intelligence", "Price Intelligence" (https://ramp.com/vendor-management)
+- "Ramp App Center" (https://www.prnewswire.com/news-releases/ramp-launches-app-center-pioneering-an-open-ecosystem-for-financial-operations-302285401.html)
+- Plan names: "Free", "Plus", "Enterprise"; also "Ramp Plus" in the Bill Pay FAQ (https://ramp.com/pricing, https://ramp.com/accounts-payable)
+- "Ramp Visa Corporate Card", "Ramp Visa Commercial Card", "Ramp Visa Business Card" (card legal text in footers) (https://ramp.com/)
+- "Ramp mobile app" and "Ramp mobile" (https://ramp.com/mobile-app)
+- Research and media: "Ramp Economics Lab", "Ramp AI Index", "Leading Indicators", "Ramp Labs" (section 7)
+- Employees: "Ramplings" ("Our Rampling interns", "Ramplings join us based on their ability to drive the business forward.") (https://ramp.com/emerging-talent, https://ramp.com/about-us)
+
+### Terms Ramp uses for the customer
+
+- "finance teams": "Tens of thousands of finance teams use Ramp ..." (https://ramp.com/about-us)
+- "modern finance teams": "Ramp is the ultimate platform for modern finance teams." (https://ramp.com/about-us meta); "Ramp is a modern finance team's ultimate platform for spend control and optimization." (https://ramp.com/versus meta); "Modern finance teams run on Ramp" (2024 homepage capture)
+- "today’s top finance teams": "The AI operating system built for today’s top finance teams." (https://ramp.com/)
+- "businesses": "Join the 85,000+ businesses simplifying their finances with Ramp." (https://ramp.com/)
+- "companies": "Join 85,000 of the world’s most ambitious companies" (https://ramp.com/)
+- "teams": "85,000 teams and counting" (https://ramp.com/)
+- "finance leaders": "join the thousands of finance leaders switching to Ramp - for free." (https://ramp.com/customers meta)
+- "CFOs and controllers": "Developed by CFOs and controllers" (https://ramp.com/intelligence)
+- "finance teams and founders": "resources to help finance teams and founders work smarter" (https://ramp.com/blog meta)
+- "accountants" and "accounting firms": "The question every accountant should ask: What's in your stack?" (https://ramp.com/blog/ramp-stack-launch); "Ramp Stack runs bookkeeping, reconciliations, and month-end close for accounting firms and teams" (https://ramp.com/stack)
+- "operators": "Purchasing falls on finance and operators" (https://ramp.com/blog/procurement-ai-agents)
+- Size terms: "startup, global enterprise, or somewhere in between" (https://ramp.com/pricing); "family farms and space startups to the Fortune 100" (press boilerplate, section 8)
+- "employees" as the cardholder and submitter: "Free employees from expense reports" (https://ramp.com/versus/amex)
+
+(Source for each term above is the URL given in the same bullet, checked 2026-11-14.)
+
+---
+
+## 7. Blog and thought-leadership voice
+
+### Blog index (https://ramp.com/blog)
+
+- [Title tag] "The Ramp Blog | Finance Blog for Modern Finance Teams" (Source: https://ramp.com/blog, checked 2026-11-14)
+- [Meta description] "Find Ramp articles, webinars, guides, and other resources to help finance teams and founders work smarter." (Source: https://ramp.com/blog, checked 2026-11-14)
+- [Newsletter prompt] "Get fresh finance insights, monthly" / "No commitments, unsubscribe any time." (Source: https://ramp.com/blog, checked 2026-11-14)
+
+### 10 recent posts: title and opening lines (publication dates as printed on each post)
+
+1. "@Inspect Where’s the bottleneck now?" (Karim Atiyeh, Co-Founder & Co-CEO, Oct 27, 2026). Pull line above the body: "You can just build things." Opening paragraph: "From day one, it’s what I’ve told our team: when a customer runs into a problem, the person who notices should dig in. When someone finds a better way to work, they should build it for the team." (Source: https://ramp.com/blog/introducing-inspect, checked 2026-11-14)
+2. "Ramp at $60B: The end of the beginning" (Eric Glyman and Karim Atiyeh, Oct 15, 2026). Opening: "Seven years ago, Karim and I wrote our mission on a Post-it and got to work." Next lines on the page: "“Save companies time and money”" and "Today, 85,000 businesses use Ramp to save over $1 billion a month." (Source: https://ramp.com/blog/ramp-at-60-billion, checked 2026-11-14)
+3. "Introducing Glass: Learn things once" (Eric Glyman, Oct 13, 2026). Opening: "Last week, David Senra asked me:" "“How does Ramp move so fast?”" "Today we’re launching the answer." (Source: https://ramp.com/blog/introducing-glass, checked 2026-11-14)
+4. "Introducing Ramp AR: Sales closes the deal. Ramp gets you paid." (Sam Packard, Product Management, Sep 22, 2026). Opening: "A signed deal should turn into cash. Instead, it turns into a scavenger hunt." (Source: https://ramp.com/blog/introducing-accounts-receivable, checked 2026-11-14)
+5. "Crossing the pond: Ramp is now live in the UK" (Jacob Wallenberg, VP of International Expansion, Sep 15, 2026). Opening: "“Delightful” isn’t a word you associate with a finance platform, or any platform for that matter. But it’s how our customers describe Ramp. Increasingly, we’re hearing it from UK customers, too." (Source: https://ramp.com/en-gb/blog/uk-launch, checked 2026-11-14)
+6. "Introducing Router.com: The best model changes. Your application shouldn't." (Veeral Patel, Head of Applied AI, Aug 19, 2026). Opening: "The model you choose today could be outdated by Friday, but you wouldn’t know unless you spent hours digging in." (Source: https://ramp.com/blog/router-launch, checked 2026-11-14)
+7. "AI spend moves fast. Know where your next AI dollar is going." (Siddhi Surana, Product Manager, Jul 16, 2026). Opening: "Finance has spent years building systems to control traditional spend like T&E and software. AI spend is different. It moves faster, and it's harder to predict or explain." (Source: https://ramp.com/blog/ai-token-spend-launch, checked 2026-11-14)
+8. "Ramp for Construction: Know where every job stands while there’s still time to act" (Carl King, Product Manager, Jul 14, 2026). Opening: "Cost overruns don’t happen at month-end. That’s just when finance finds them." (Source: https://ramp.com/blog/ramp-for-construction-launch, checked 2026-11-14)
+9. "Welcoming my Co-Founder Karim as Co-CEO of Ramp" (Eric Glyman, Jun 25, 2026). Opening: "Today Karim Atiyeh and I are both taking new titles as Co-CEOs of Ramp." (Source: https://ramp.com/blog/welcoming-my-co-founder-karim-as-co-ceo-of-ramp, checked 2026-11-14)
+10. "Introducing Ramp Applied AI Solutions" (Ori Daniel, Head of Applied AI Solutions, Jun 10, 2026). Opening: "AI spend within firms is accelerating. Across Ramp’s 70,000+ customers, AI token spend has increased 13x since January 2025." (Source: https://ramp.com/blog/introducing-ramp-applied-ai-solutions, checked 2026-11-14)
+- Also on the index: "The question every accountant should ask: What's in your stack?" (Victor Pires, Jun 3, 2026). Opening: "Accountants are living through a fundamental shift. Demand from clients is growing, while the pipeline of new CPAs is shrinking." (Source: https://ramp.com/blog/ramp-stack-launch, checked 2026-11-14)
+- Also on the index: "Buy at the speed of AI" (Sam Packard, Apr 29, 2026). Opening: "Every company buys. But less than 2% of US businesses employ a team to oversee the process." (Source: https://ramp.com/blog/procurement-ai-agents, checked 2026-11-14)
+- [Evergreen/SEO post titles on the index, category labels "Business credit cards", "Expense management", "Alternatives", "Accounts payable", "AI", "Accounting"] "Which high-limit business credit card is right for you? September 2026"; "Best expense management software for businesses in 2026"; "Top Brex alternatives and competitors for 2026"; "The 7 best BILL.com alternatives in 2026"; "How to set spending controls for AI agents"; "AI accounting software: 14 best tools for 2026" (Source: https://ramp.com/blog, checked 2026-11-14)
+- [Blog disclaimer under each post] "Ramp is dedicated to helping businesses of all sizes make informed decisions. We adhere to strict editorial guidelines to ensure that our content meets and maintains our high standards." (Source: https://ramp.com/blog/ramp-at-60-billion, checked 2026-11-14)
+
+### Ramp's own research and media series
+
+- Ramp Economics Lab, tagline on its hub page: "A think tank from Ramp. Studying how companies spend and operate, powered by real-time business spending data." (Source: https://ramp.com/data, checked 2026-11-14)
+- Ramp Economics Lab, meta description: "Key insights and analysis of business spend and economic data from Ramp's economics team" (Source: https://ramp.com/data, checked 2026-11-14)
+- Ramp Economics Lab, team labels: "Ara Kharazian" "Lead Economist, Ramp"; "Ian Macomber" "Head of Analytics Engineering & Data Science, Ramp"; "Ryan Stevens" "Director of Applied Science, Ramp" (Source: https://ramp.com/data, checked 2026-11-14)
+- Ramp Economics Lab, Substack about page meta description: "“The only good brand on Substack” - Feed Me /// Data you can't get anywhere else /// From Ramp's economist Ara Kharazian." (Source: https://econlab.substack.com/about, checked 2026-11-14)
+- Ramp Economics Lab, "In the press" line: "Ramp Economics Lab insights, cited by leading business publications." (Source: https://ramp.com/data, checked 2026-11-14)
+- Ramp AI Index, hub card: "Monthly measurement of AI adoption by American businesses." (Source: https://ramp.com/data, checked 2026-11-14)
+- Ramp AI Index, own page: "Monthly measurement of AI adoption and spend across American businesses using transaction data from 85,000+ firms on Ramp." (Source: https://ramp.com/data/ai-index, checked 2026-11-14)
+- Ramp AI Index, meta description: "In October 2026, 56.8% of U.S. businesses on Ramp paid for AI, up 1.0 points from September. Monthly data on AI adoption and spend from 85,000+ firms." (Source: https://ramp.com/data/ai-index, checked 2026-11-14)
+- Ramp AI Index, a summary line: "In the week ending November 1, 2026, Anthropic captured the largest share of AI token spending among businesses on Ramp, at 49.3%." (Source: https://ramp.com/data/ai-index, checked 2026-11-14)
+- Latest Economics Lab post titles listed on the hub (as of 2026-11-14): "New Fronts in the AI Trade" (Nov 11); "Top SaaS Vendors on Ramp (November 2026)" (Nov 4); "Google's models lag in agentic AI usage" (Nov 2); "Cracks in the AI Thesis Part 3". (Source: https://ramp.com/data, checked 2026-11-14)
+- Leading Indicators, headline and meta: "Leading Indicators: Data-driven business stories" / "Data-driven stories on the business news shaping tomorrow" / "Fresh perspectives, real-time insights, and in-depth analysis about the future of finance." / "Get data-driven insights on the business news shaping tomorrow in our weekly letter." (Source: https://ramp.com/leading-indicators, checked 2026-11-14)
+- Ramp Labs: "The home for AI research at Ramp" (Source: https://labs.ramp.com/, checked 2026-11-14)
+- Ramp Economics Lab press release headline (Jun 30, 2026): "Ramp Economics Lab Finds Companies That Invest Heavily in AI Hire More" (Source: https://www.prnewswire.com/news/ramp/, checked 2026-11-14)
+
+### Founder and CEO public statements (verbatim, short)
+
+- [Eric Glyman, press release, Oct 15, 2026] "We obsess over saving our customers time and money. That's why we're growing faster at more than twice the size we were a year ago," "AI opens up much more of the work it takes to run a company. Our opportunity is to get that work done at less cost. We want to help every business run better with AI." (Source: https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html, checked 2026-11-14)
+- [Eric Glyman, press release, Jun 4, 2026] "For 500 years, business ran on two pillars of spend: people and vendors. In the last 24 months, a third arrived – intelligence, paid by the token and invisible to every system we've built to manage cost. Ramp is the infrastructure for the third pillar," (Source: https://www.prnewswire.com/news-releases/ramp-raises-series-f-at-44-billion-valuation-302791103.html, checked 2026-11-14)
+- [Eric Glyman and Karim Atiyeh, blog, Oct 15, 2026] "We are building a company that helps you build a great company." / "Chapter 1 was about what we could build. Chapter 2 is about what you can." / "Job’s not finished." (Source: https://ramp.com/blog/ramp-at-60-billion, checked 2026-11-14)
+- [Eric Glyman, blog, Oct 15, 2026] "In September alone, we saved them 1.5 million hours—that’s like giving 9,000 people a working month back." (Source: https://ramp.com/blog/ramp-at-60-billion, checked 2026-11-14)
+- [Eric Glyman, Glass blog, Oct 13, 2026] "Giving every employee AI — the best models, the most tokens — is not the same as becoming an AI-native company." / "It’s like giving every employee a Steinway and expecting a symphony. What you actually get is a lot of expensive noise." / "One week in May, we burned $1.5 million in tokens." (Source: https://ramp.com/blog/introducing-glass, checked 2026-11-14)
+- [Eric Glyman, Glass blog] "No model ships with your company's brain." (Source: https://ramp.com/blog/introducing-glass, checked 2026-11-14)
+- [Eric Glyman and Karim Atiyeh, co-CEO blog, Jun 25, 2026] "Most importantly, at Ramp there is no line between the people who build and the people who do everything else. Everyone is a builder." / "We have always believed every function should be approached as a systems-engineering problem (even when the system was primarily human)" / "we intend to be there for all of it: managing their token spend, supercharging their finance teams, and helping them get more out of every dollar and hour." (Source: https://ramp.com/blog/welcoming-my-co-founder-karim-as-co-ceo-of-ramp, checked 2026-11-14)
+- [Karim Atiyeh, Inspect blog, Oct 27, 2026] "Most orgs slow down as they grow. Our builders now ship 6x as much code per person as they did a year ago, and Inspect is a big reason why." (Source: https://ramp.com/blog/introducing-inspect, checked 2026-11-14)
+- [Eric Glyman, Saquon Barkley blog, Feb 5, 2025] "We put our customers’ long-term success first, helping them spend less – even if that sometimes comes at the cost of our own short-term profit." (Source: https://ramp.com/blog/welcoming-the-nfls-saquon-barkley-to-the-ramp-roster, checked 2026-11-14)
+- [Founders, careers letter] "Our two founders, Eric and Karim, thought it’d be a good idea to write a letter persuading you not to apply." (Source: https://ramp.com/careers, checked 2026-11-14)
+- Interview headlines on Ramp's About page (Bloomberg, Jan 2025, "Ramp CEO Eric Glyman Explains What He’s Seeing on AI"; Every, Dec 2024, "The Religion of Ramp"): article text not read, the sources are not Ramp-hosted. (Source: https://ramp.com/about-us, checked 2026-11-14)
+
+---
+
+## 8. Press release language
+
+Source index of Ramp releases: https://www.prnewswire.com/news/ramp/ (checked 2026-11-14). The index lists 30+ releases between Feb 12, 2026 and Oct 21, 2026.
+
+### Release 1: funding (Oct 15, 2026)
+
+- [Headline] "Ramp Reaches $60 Billion Valuation as Annualized Revenue Tops $2 Billion" (Source: https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html, checked 2026-11-14)
+- [Subtitle] "Raises $1.85 billion to help businesses get more value from every dollar, hour and token" (Source: https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html, checked 2026-11-14)
+- [Opening, first two sentences of the first paragraph; the paragraph continues with an investor list] "NEW YORK, Oct. 15, 2026 /PRNewswire/ -- Ramp today announced a $1.85 billion primary financing round led by Dragoneer Investment Group, valuing the company at $60 billion. Thrive Capital, Founders Fund, Sands Capital, and Avenir Growth co-led the round, with participation from additional investors including:" (Source: https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html, checked 2026-11-14)
+- [Second paragraph] "Ramp now generates more than $2 billion in annualized revenue1, with positive cash flow. The company's revenue is growing 25% faster now than it was at the same time last year. Finally, Ramp's enterprise business continues to grow, with a 113% year-over-year increase in customers generating over $100,000 in revenue." (Source: https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html, checked 2026-11-14)
+- [Section heading] "Customers get more value from every dollar with Ramp" (Source: https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html, checked 2026-11-14)
+- [Section heading and line] "Ramp helps businesses earn a higher return on intelligence" / "Ramp has spent seven years helping businesses get more from every dollar. Now it's bringing that same focus to AI." (Source: https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html, checked 2026-11-14)
+
+### Release 2: funding (Jun 4, 2026)
+
+- [Headline] "Ramp Raises Series F at $44 Billion Valuation" (Source: https://www.prnewswire.com/news-releases/ramp-raises-series-f-at-44-billion-valuation-302791103.html, checked 2026-11-14)
+- [Subtitle] "Raises $750 Million to invest further in AI advancements for customers" (Source: https://www.prnewswire.com/news-releases/ramp-raises-series-f-at-44-billion-valuation-302791103.html, checked 2026-11-14)
+- [Opening, first two sentences; the paragraph continues with investor names] "NEW YORK, June 4, 2026 /PRNewswire/ -- Today, Ramp announced a $750 million primary financing round led by ICONIQ, GIC, and Ontario Teachers' Pension Plan, valuing the company at $44 billion. New investors include Goldman Sachs Alternatives, D.E. Shaw & Co., Morgan Stanley Investment Management, Generation Investment Management, Insight Partners, and BroadLight Capital." (Source: https://www.prnewswire.com/news-releases/ramp-raises-series-f-at-44-billion-valuation-302791103.html, checked 2026-11-14)
+- [Second paragraph, first sentence] "Ramp grew TPV ~170% year-over-year in March 2026, the company's highest growth rate in three years, despite the business being roughly 20x the size." (Source: https://www.prnewswire.com/news-releases/ramp-raises-series-f-at-44-billion-valuation-302791103.html, checked 2026-11-14)
+
+### Release 3: product launch (Jul 16, 2026)
+
+- [Headline] "Ramp Launches AI Token Spend Controls" (Source: https://www.prnewswire.com/news-releases/ramp-launches-ai-token-spend-controls-302827389.html, checked 2026-11-14)
+- [Subtitle] "New capabilities give finance teams one place to see, understand, and control spending on AI across Anthropic, OpenAI, Cursor, and Gemini" (Source: https://www.prnewswire.com/news-releases/ramp-launches-ai-token-spend-controls-302827389.html, checked 2026-11-14)
+- [Opening paragraph] "NEW YORK, July 16, 2026 /PRNewswire/ -- Today, Ramp launched AI Token Spend Management to help finance teams track, optimize, and control AI token and subscription spend across providers." (Source: https://www.prnewswire.com/news-releases/ramp-launches-ai-token-spend-controls-302827389.html, checked 2026-11-14)
+- [Second paragraph] "Spending on AI tokens has become the fastest growing category in business spend, but finance teams have little to no visibility into how it's being spent. AI Token Spend Management gives companies one dashboard to see and control spending across AI providers, weekly briefings on usage trends and ways to be more efficient, and real-time controls and alerts to stop overruns." (Source: https://www.prnewswire.com/news-releases/ramp-launches-ai-token-spend-controls-302827389.html, checked 2026-11-14)
+
+### Release 4: product launch (Oct 21, 2026)
+
+- [Headline] "Ramp Launches Ramp for Nonprofits to Help Organizations Keep Every Dollar on Mission" (Source: https://www.prnewswire.com/news-releases/ramp-launches-ramp-for-nonprofits-to-help-organizations-keep-every-dollar-on-mission-302915048.html, checked 2026-11-14)
+- [Opening paragraph] "NEW YORK, Oct. 21, 2026 /PRNewswire/ -- Ramp today launched Ramp for Nonprofits to help finance teams solve two major problems: recovering sales tax they never should have paid and keeping spending aligned with grant restrictions and donor intent." (Source: https://www.prnewswire.com/news-releases/ramp-launches-ramp-for-nonprofits-to-help-organizations-keep-every-dollar-on-mission-302915048.html, checked 2026-11-14)
+
+### Release 5: product launch, older (Oct 24, 2024)
+
+- [Headline] "Ramp Launches App Center, Pioneering an Open Ecosystem for Financial Operations" (Source: https://www.prnewswire.com/news-releases/ramp-launches-app-center-pioneering-an-open-ecosystem-for-financial-operations-302285401.html, checked 2026-11-14)
+- [Opening paragraph] "NEW YORK, Oct. 24, 2024 /PRNewswire/ -- Ramp, the financial operations platform designed to save businesses time and money, today launched the Ramp App Center: a central hub offering best-in-class tools for finance organizations. The App Center allows developers to build integrations directly into Ramp's platform, giving its 25,000+ customers one-click access to a wide range of tools to run their business more efficiently." (Source: https://www.prnewswire.com/news-releases/ramp-launches-app-center-pioneering-an-open-ecosystem-for-financial-operations-302285401.html, checked 2026-11-14)
+
+### "About Ramp" boilerplate, current and earlier versions (verbatim)
+
+- [Oct 21, 2026 and Oct 15, 2026 (identical)] "Ramp is how companies save time and money on every dollar they spend. It's the smart financial infrastructure behind every card swipe, invoice, and reimbursement – streamlining approvals, processing payments, and closing the books automatically. More than 85,000 organizations, from family farms and space startups to the Fortune 100, use Ramp to save over $1 billion a month and over a year's worth of work every hour. The median customer using Ramp achieved 7.5% savings on expenses and 16% revenue growth in their first year. Founded in 2019, Ramp powers over $275 billion in purchases annually. Learn more at" (the release text ends with a link; the Jun 4 and Jul 16 versions read "Learn more at www.ramp.com.") (Source: https://www.prnewswire.com/news-releases/ramp-launches-ramp-for-nonprofits-to-help-organizations-keep-every-dollar-on-mission-302915048.html, checked 2026-11-14)
+- [Jun 4, 2026 and Jul 16, 2026 (identical)] "Ramp is how companies save time and money on every dollar they spend. It's the smart financial infrastructure behind every card swipe, invoice, and reimbursement – streamlining approvals, processing payments, and closing the books automatically. More than 70,000 organizations, from family farms and space startups to the Fortune 100, have saved over $12 billion and 27 million hours with Ramp. For the median customer, that translates to 5% savings on expenses and 16% revenue growth in their first year. Founded in 2019, Ramp powers over $200 billion in purchases annually. Learn more at www.ramp.com." (Source: https://www.prnewswire.com/news-releases/ramp-raises-series-f-at-44-billion-valuation-302791103.html, checked 2026-11-14)
+- [Sep 9, 2025, "Ramp Reaches $1 Billion in Annualized Revenue"] "Ramp is a financial operations platform designed to save companies time and money. Our all-in-one solution combines payments, corporate cards, vendor management, procurement, travel booking, and automated bookkeeping with built-in intelligence to maximize the impact of every dollar and hour spent. Over 45,000 organizations, from family farms to space startups, have saved $10 billion and 27.5 million hours with Ramp. Founded in 2019, Ramp powers $100 billion in purchases annually. Learn more at www.ramp.com." (Source: https://www.prnewswire.com/news-releases/ramp-reaches-1-billion-in-annualized-revenue-302550637.html, checked 2026-11-14)
+- [Oct 24, 2024, App Center] "We believe in the adage, time is money. Ramp is a financial operations platform that saves businesses both. We streamline everything from expenses to procurement, accounting, accounts payable, and travel – automating the tedious, so teams can tackle the critical." (Source: https://www.prnewswire.com/news-releases/ramp-launches-app-center-pioneering-an-open-ecosystem-for-financial-operations-302285401.html, checked 2026-11-14)
+- [Release lead-ins used in 2026 releases] "Ramp, the leading financial operations platform, today announced ..." (for example Feb 12, 2026 Accounting Agent; Mar 13, 2026 Billhop; Apr 29, 2026 procurement agents). (Source: https://www.prnewswire.com/news/ramp/, checked 2026-11-14)
+
+---
+
+## 9. How Ramp describes competitors and "the old way"
+
+All lines are from Ramp's own site and are Ramp's claims.
+
+### Comparison hub (https://ramp.com/versus)
+
+- [Title tag] "Ramp vs Competitors | See How We Stack Up | Ramp" (Source: https://ramp.com/versus, checked 2026-11-14)
+- [H1 and sub] "Better than the rest: Scale with Ramp" / "Exploring alternatives for spend management or a solution for your growing business? Ramp is a modern finance team's ultimate platform for spend control and optimization." (Source: https://ramp.com/versus, checked 2026-11-14)
+- [Listed comparisons, 34] Airbase, Airwallex, Amex, Bank of America, Bill, Bill Spend & Expense, Bluevine, Brex, Capital One, Center, Chase, Citi, Corpay, Coupa, Credit One, Divvy, Expensify, Finvari, Melio, Mercury, Mesh, Navan, Navy Federal Credit Union, Novo, Relay, Rho, Rippling, SAP Concur, Slash, SVB, Teampay, U.S. Bank, Wells Fargo, Zip (each shown as "Ramp vs [name]"). (Source: https://ramp.com/versus, checked 2026-11-14)
+
+### Specific competitor pages
+
+- [Brex, H1 block] "5,500+" "teams chose Ramp over Brex." / "Our product velocity, driven by customer dedication, has consistently won over 85,000 companies. Yours could be next." (Source: https://ramp.com/versus/brex, checked 2026-11-14)
+- [Brex, heading] "Projections lie. Numbers don't." (Source: https://ramp.com/versus/brex, checked 2026-11-14)
+- [Brex, claim] "ERP depth determines month-end velocity." / "Ramp syncs NetSuite, Sage, and Oracle Fusion Cloud in real-time with multi-entity support and custom field mapping. Brex defaults to journal entries—customers manually download CSVs for transaction-level detail" (Source: https://ramp.com/versus/brex, checked 2026-11-14)
+- [Brex, table rows] "AI-generated memos with proactive reminders; 95% receipt compliance" versus "Basic attachment functionality; ~70% compliance"; "User satisfaction NPS of 58-59 (9-month high of 59 in Jan 2025); 4.8/5 G2 rating" versus "~15 NPS (below SaaS "good" benchmark of 30); user complaints on login issues and UX friction"; "Single-layer approval workflows; post-transaction notifications; limited pre-spend controls"; "Bill-by-bill payment; one-way vendor sync; requires add-ons for procurement (6 figure+ additional licensing)" (Source: https://ramp.com/versus/brex, checked 2026-11-14)
+- [Expensify, intro] "Expensify is supposed to help you manage spending—but it doesn’t provide fast and free reimbursements nor bill pay in a single space finance teams love to use. Ramp does—and more." (Source: https://ramp.com/versus/expensify, checked 2026-11-14)
+- [Expensify, meta] "Nobody actually enjoys submitting expense reports. Switch to Ramp (it's free) in minutes and save hours each month on expenses, payments, and accounting" (Source: https://ramp.com/versus/expensify, checked 2026-11-14)
+- [Expensify, claim] "Expensify won’t always pick up the right employee receipt details. It’s hard to find expense reports you’ve created." (Source: https://ramp.com/versus/expensify, checked 2026-11-14)
+- [SAP Concur, intro] "Stop wasting time on tedious expense reports and chasing paper receipts. Ramp modernizes card & expense management with auto-captured receipts, pre-filled memos, and real-time spend visibility, all while saving you 7.5%." (Source: https://ramp.com/versus/sap-concur, checked 2026-11-14)
+- [SAP Concur, claims] "Turn expense reports into a <15 second task"; "Ramp eliminates 20 minute expense reports, auto-capturing receipts, pre-filling details, and letting employees submit in <15 seconds via SMS/Slack/Teams."; "Legacy expense software that requires external cards & paid add-ons for basic automation"; "Ramp’s agents enforce policy, auto-code transactions, and answer employee questions with full audit trails, reducing the manual work Concur still relies on." (Source: https://ramp.com/versus/sap-concur, checked 2026-11-14)
+- [Navan, intro] "Navan is a travel-first platform designed to help with trip booking, with a separate expense management suite. Ramp is an all-in-one finance automation tool that saves companies 7.5% on average and closes your books 8x faster." (Source: https://ramp.com/versus/navan, checked 2026-11-14)
+- [Navan, meta] "Navan is a platform solely for travel management. Ramp is a platform for complete expense management—with travel-specific features as the cherry on top." (Source: https://ramp.com/versus/navan, checked 2026-11-14)
+- [Navan, claim] "This eliminates fragmented stacks reducing admin burden and tool sprawl." (Source: https://ramp.com/versus/navan, checked 2026-11-14)
+- [Amex, intro] "Join teams that traded legacy cards, devalued points, and add-on expense tools for a modern, integrated platform that automates financial operations end-to-end." (Source: https://ramp.com/versus/amex, checked 2026-11-14)
+- [Amex, meta] "Amex offers traditional corporate cards with basic software for small businesses. Ramp is an all-in-one finance automation platform that automates complex financial processes to save you time and money." (Source: https://ramp.com/versus/amex, checked 2026-11-14)
+- [Amex, table rows] "Corporate cards only; needs extra tools for basic automation"; "Complex points with changing rules and fine print"; "Uncapped cashback on every transaction"; "Guaranteed rewards" (Source: https://ramp.com/versus/amex, checked 2026-11-14)
+- [Counts on versus pages] "1,900+ businesses have chosen Ramp over Expensify"; "5,200+ businesses have chosen Ramp over SAP Concur"; "18,000+ businesses have chosen Ramp over Amex" (Source: https://ramp.com/versus/expensify, https://ramp.com/versus/sap-concur, https://ramp.com/versus/amex, checked 2026-11-14)
+- [Stack page, benchmark chart naming other AI agents] "Outperforms leading general-purpose AI agents on real-world accounting tasks." Chart labels in page order: "Ramp Stack", "+10.1 pts", "Claude Code · Opus 5", "+31.7 pts", "Codex · GPT-5.6 Sol". The pairing of each "pts" figure with each label is not confirmed from the text. (Source: https://ramp.com/stack, checked 2026-11-14)
+
+### "The old way" and legacy language elsewhere on the site
+
+- "Systems that never spoke" / "This is what five separate systems to reimburse a flight looks like." (homepage) (Source: https://ramp.com/, checked 2026-11-14)
+- "Scale the team. Shrink the paperwork." / "You had a bureaucracy. Now you have a business again." (homepage) (Source: https://ramp.com/, checked 2026-11-14)
+- "Stop stitching together five tools to run your finances." (small-business H1) (Source: https://ramp.com/small-business, checked 2026-11-14)
+- "Expenses without reports. Visibility without delays." (enterprise) (Source: https://ramp.com/enterprise, checked 2026-11-14)
+- "Process bills, accelerate approvals, and manage cash flow 2.4x faster than legacy software." (accounts-payable) (Source: https://ramp.com/accounts-payable, checked 2026-11-14)
+- "Up to 3.5x more fully-automated codings than legacy tools" (accounting-automation-software) (Source: https://ramp.com/accounting-automation-software, checked 2026-11-14)
+- "Replace 3 bank portals and a spreadsheet by a single, centralized forecast." (business-banking) (Source: https://ramp.com/business-banking, checked 2026-11-14)
+- "See policy status for every option. No digging through static policy PDFs or wondering if trips will get rejected." (travel) (Source: https://ramp.com/travel, checked 2026-11-14)
+- "Your team shouldn't have to play detective on every invoice." (mid-market) (Source: https://ramp.com/mid-market, checked 2026-11-14)
+- "Most AR systems just record the work. Ramp actually does it." (AR launch post) (Source: https://ramp.com/blog/introducing-accounts-receivable, checked 2026-11-14)
+- "A signed deal should turn into cash. Instead, it turns into a scavenger hunt." (AR launch post) (Source: https://ramp.com/blog/introducing-accounts-receivable, checked 2026-11-14)
+- "Cost overruns don’t happen at month-end. That’s just when finance finds them." (construction launch post) (Source: https://ramp.com/blog/ramp-for-construction-launch, checked 2026-11-14)
+- "You end up stitching together ChatGPT, a Notion page of prompts, and a downloads folder of CSVs moved between tools. It’s not auditable, it’s not connected to your systems, and in the end it doesn’t make the firm meaningfully more efficient." (Stack launch post) (Source: https://ramp.com/blog/ramp-stack-launch, checked 2026-11-14)
+- "Nobody actually enjoys submitting expense reports." (expensify versus meta) (Source: https://ramp.com/versus/expensify, checked 2026-11-14)
+- [Customer quote displayed by Ramp] "Before Ramp it was a process from the dark ages. We had people just doing expenses full-time. It was miserable." (Source: https://ramp.com/, checked 2026-11-14)
+
+---
+
+## 10. Proof-point language (all "claimed by Ramp")
+
+Footnote basis is given where it was captured on the page. Where no footnote text was captured, it says "footnote text not captured".
+
+### Company-level
+
+- "85,000" (customers): "Join 85,000 of the world’s most ambitious companies" (homepage H2); "85,000+" "Ramp customers" (about-us stat strip); "85,000 teams and counting" (homepage); "Join the 85,000+ businesses simplifying their finances with Ramp." (homepage footer). Claimed by Ramp. (Source: https://ramp.com/, https://ramp.com/about-us, checked 2026-11-14)
+- "growing 3.2x faster than the average American business." (homepage H2 span). Claimed by Ramp, footnote text not captured. (Source: https://ramp.com/, checked 2026-11-14)
+- "$1M+" "saved on global spend" (homepage stat tile). Claimed by Ramp, footnote text not captured. (Source: https://ramp.com/, checked 2026-11-14)
+- "27M+" "Hours saved"; "$12B+" "Saved for customers"; "200+" "Countries supported" (about-us stat strip). Claimed by Ramp, footnote text not captured. (Source: https://ramp.com/about-us, checked 2026-11-14)
+- "$10 billion and 27.5 million hours saved." (enterprise H2). Claimed by Ramp. (Source: https://ramp.com/enterprise, checked 2026-11-14)
+- "Hundreds of 5-star reviews make us the top-rated finance, expense, and card software." (about-us). Claimed by Ramp. (Source: https://ramp.com/about-us, checked 2026-11-14)
+- "2,000+" "5 star reviews" (banner on blog posts and the podcast landing page). Claimed by Ramp. (Source: https://ramp.com/blog/welcoming-my-co-founder-karim-as-co-ceo-of-ramp, checked 2026-11-14)
+- "Backed by over 100 of the most influential angels, founders, and board members in Fintech" (about-us). Claimed by Ramp. (Source: https://ramp.com/about-us, checked 2026-11-14)
+- "we’re growing 10x faster than the median publicly traded SaaS company." (careers). Claimed by Ramp. (Source: https://ramp.com/careers, checked 2026-11-14)
+- "More than half of the companies in the Forbes AI 50 run on Ramp" (startups). Claimed by Ramp. (Source: https://ramp.com/startups, checked 2026-11-14)
+- [Oct 15, 2026 blog] "Today, 85,000 businesses use Ramp to save over $1 billion a month." and "Over the summer, we passed $2 billion in annualized revenue, with positive cash flow." Claimed by Ramp. (Source: https://ramp.com/blog/ramp-at-60-billion, checked 2026-11-14)
+- [Oct 15, 2026 press release key stats, "as of October 1, 2026"] "Over $2 billion in annualized revenue, with positive cash flow."; "85,000+ customers, including Visa, Uber, Shopify, Robinhood, Fanatics, Notion, Cursor, The Denver Broncos, and The Boys and Girls Club."; "Over $275 billion in annualized purchase volume.*"; "Median customer: 7.5% savings and 16% revenue growth in their first year." Claimed by Ramp; asterisk text: "Ramp does not include bank transfers or non-monetized payments when calculating Total Purchase Volume." (Source: https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html, checked 2026-11-14)
+- [Same release] "The median customer now saves 7.5%, up from 5% a year ago, and completes transactions with 22% less manual work." and "The majority of customers now use two or more Ramp products, and a quarter use three or more." Claimed by Ramp. (Source: https://www.prnewswire.com/news-releases/ramp-reaches-60-billion-valuation-as-annualized-revenue-tops-2-billion-302909315.html, checked 2026-11-14)
+- [Nonprofits release, Oct 21, 2026] "Ramp already helps more than 13,000 nonprofits put more time and money toward their missions." Claimed by Ramp. (Source: https://www.prnewswire.com/news-releases/ramp-launches-ramp-for-nonprofits-to-help-organizations-keep-every-dollar-on-mission-302915048.html, checked 2026-11-14)
+- [Stack launch post] "Ramp partners with more than 4,500 accounting firms, including 92 of the top 100 CPA firms" Claimed by Ramp. (Source: https://ramp.com/blog/ramp-stack-launch, checked 2026-11-14)
+
+### Savings and time (product pages)
+
+- "up to 7.5%1 savings" (corporate-cards hero list); footnote: "Keep in mind that this percentage is an estimate, not a guarantee." Claimed by Ramp. (Source: https://ramp.com/corporate-cards, checked 2026-11-14)
+- "Over $350k in partner offers." (corporate-cards); "Access over $350,000 in partner rewards." (rewards). Claimed by Ramp. (Source: https://ramp.com/corporate-cards, https://ramp.com/rewards, checked 2026-11-14)
+- "Close your books 3x faster." (accounting-automation-software H1); "3.5x" "more fully-automated codings than legacy tools¹"; "70%" "fewer corrections as Ramp learns your nuances²"; "98%" "accuracy on Ramp’s ready-to-sync decisions³". Claimed by Ramp, footnotes on page (see 3.6). (Source: https://ramp.com/accounting-automation-software, checked 2026-11-14)
+- "2.4x" "faster invoice processing than legacy software.3"; "Up to" "7x" "fewer clicks to process a bill vs Bill.com1"; "95%" "of businesses reported improved visibility2"; "99% accuracy" (OCR). Claimed by Ramp, footnotes on page (see 3.3). (Source: https://ramp.com/accounts-payable, checked 2026-11-14)
+- "16%" "Annual savings on vendor spend*"; "46 hrs" "Saved per month with AI Agents**"; "3x" "Faster approvals***". Claimed by Ramp, footnotes on page (see 3.4). (Source: https://ramp.com/procurement, checked 2026-11-14)
+- "Up to" "3x" "more out-of-policy spend captured¹"; "85%" "transaction reviews automated²"; "99%" "policy enforcement accuracy³" (enterprise and versus/brex). Claimed by Ramp, footnote text not captured. (Source: https://ramp.com/enterprise, https://ramp.com/versus/brex, checked 2026-11-14)
+- "75%" "reduction in credit card reconciliation time"; "$250K" "savings identified by Ramp’s insight tool"; "90%" "of transactions auto-coded by Ramp"; "5X" "faster transaction review time" (intelligence). Claimed by Ramp, footnote text not captured. (Source: https://ramp.com/intelligence, checked 2026-11-14)
+- "Up to" "60%" "faster closes for clients."; "9x" "faster recurring schedules and reconciliations." (stack). Claimed by Ramp, footnote text not captured. (Source: https://ramp.com/stack, checked 2026-11-14)
+- "Earn 4.73%" in an Investment Account and "Earn 2%" in a checking account (pricing); "2% APY1" and "up to 4.73%2" (business-banking); "20,000+" "companies running cash on Ramp"; "$5B+" "total assets under management and administration" (as of 11/13/2026). Claimed by Ramp. (Source: https://ramp.com/pricing, https://ramp.com/business-banking, checked 2026-11-14)
+- "Ramp blocks 3.5% of out-of-policy spend before it happens, and our AI reviews 100% of expenses, flagging only what needs human judgment." (versus/amex); "Ramp matches 70% of receipts within the day and auto-codes 50% of transactions, giving finance teams back 40+ hours/month." (versus/amex); "catching 15x more out-of-policy spend than non-AI alternatives and enforcing policy with 99% accuracy" (versus/navan); "closes your books 8x faster" (versus/navan). Claimed by Ramp. (Source: https://ramp.com/versus/amex, https://ramp.com/versus/navan, checked 2026-11-14)
+- [SAP Concur page footnote] "Metrics based on internal Salesforce records as of 07/06/2026 and customer bank statements at time of Ramp approval." (Source: https://ramp.com/versus/sap-concur, checked 2026-11-14)
+- "Trusted by 2,900+ businesses using Ramp's AI Spend Management to scale AI spend."; "400T+ tokens tracked in the last 30 days"; "Ramp cut its own AI costs by ~30%." Claimed by Ramp. (Source: https://ramp.com/ai-cost-monitoring, checked 2026-11-14)
+- [Inspect post meta] "It accounts for 74% of our merged PRs and helped us ship 6x as much code per person." Claimed by Ramp. (Source: https://ramp.com/blog/introducing-inspect, checked 2026-11-14)
+- [Ramp AI Index page] "In October 2026, AI adoption reached 56.8% of U.S. businesses on Ramp, up 1.0 percentage points from September and 13.3 points from a year earlier." Claimed by Ramp (Ramp Economics Lab data). (Source: https://ramp.com/data/ai-index, checked 2026-11-14)
+- [Applied AI blog] "AI token spend has increased 13x since January 2025" (Jun 10, 2026) and [press release Jul 16, 2026] "Since June 2025, AI token spend across Ramp customers has increased 20.7x." Claimed by Ramp. (Source: https://ramp.com/blog/introducing-ramp-applied-ai-solutions, https://www.prnewswire.com/news-releases/ramp-launches-ai-token-spend-controls-302827389.html, checked 2026-11-14)
+- [Security page] "Ramp has industry-low fraud losses." Claimed by Ramp, footnote text not captured. (Source: https://ramp.com/security, checked 2026-11-14)
+
+---
+
+## Gaps and not found
+
+- Mission statement on a dedicated page: ramp.com/about, /mission and /company return 404; /about-us has no explicit "Our mission" paragraph. The Post-it mission wording comes from the Oct 15, 2026 blog and press releases. A dedicated values/mission page elsewhere (for example a Notion or handbook page) was not found.
+- Homepage footer company description paragraph: not found (only the pre-footer line "Join the 85,000+ businesses ..." and the "not a bank" disclaimer).
+- Footnote texts for several homepage and about-page stats ("3.2x faster", "$1M+ saved on global spend", "27M+ hours", "$12B+", enterprise 3x/85%/99%, intelligence 75%/$250K/90%/5X, stack 60%/9x): not captured in the fetched text.
+- Homepage "The old way." vs "The Ramp way." comparison content on /expense-management: only the two labels exist as text; the content is in non-text elements.
+- Billboard, subway, TV and podcast ad on-screen or spoken copy from Ramp-owned sources: not found. Only the 2025 blog description, third-party ad-industry listings (LBB, Ads of the World, Framestore, Marketing Brew) and one podcast landing page were found. The "Brian's First Day as a CFO" stunt description appears only in third-party text. The search budget ran out before a second pass on subway and billboard campaigns.
+- Instagram, Facebook and TikTok bios: not retrievable with a plain fetch (errors or empty responses). X and LinkedIn bios were read from page meta tags, not from the logged-in profile pages. The LinkedIn meta description still says "More than 70,000 companies ... $10B and 27.5M hours", which differs from the "85,000+" figure in the same description's first line.
+- Apple App Store subtitle: not found in the fetched page.
+- Interview and podcast quotes from Eric Glyman and Karim Atiyeh from third-party outlets (Bloomberg, Every, TechCrunch, podcasts): not read; the Bloomberg and Every pieces are paywalled or third-party and were not accessed. Founder statements above come only from Ramp's blog, careers page and Ramp press releases. No X or LinkedIn posts by founders were retrieved.
+- "Ramp for Public Sector", "Ramp for Nonprofits" and "Ramp for Construction" dedicated product pages: not fetched; only blog and press release text recorded.
+- Footer wording on subpages differs from the homepage footer (for example "Banking" and "Accounting automation" link labels appear on /about-us but not on the homepage footer as fetched); the reason was not investigated.
+- Press release text for most of the 30+ releases on the index: only 5 opening paragraphs and boilerplates were read verbatim; the rest appear only as index headlines and blurbs.
+- Wayback captures for 2020 and earlier: the capture query timed out; earliest capture read is 2021-03-04.
+- Customer-term and phrase counts in section 5 cover 33 pages, not the whole site (the site has many more pages, including 34 comparison pages and blog posts), and include customer testimonials and FAQ text shown on those pages.
