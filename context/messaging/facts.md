@@ -1,6 +1,6 @@
 # Ramp - Authorized Copy Facts
 
-> APPROVED by the owner on 2026-11-14 (all rows, demo sender, proposed voice and CTAs). Built from `knowledge-base/playbooks/templates/facts-template.md`. This file is the ONLY source of names, numbers and claims for prospect-facing copy (`/campaign-copy` FACTS GATE). Anything not listed here renders as `{{placeholder}}` in copy.
+> APPROVED by the owner on 2026-11-14 (all rows, proposed voice and CTAs); sender changed to "Segun (GTM portfolio build)" on 2026-11-15. Built from `knowledge-base/playbooks/templates/facts-template.md`. This file is the ONLY source of names, numbers and claims for prospect-facing copy (`/campaign-copy` FACTS GATE). Anything not listed here renders as `{{placeholder}}` in copy.
 >
 > All facts come from `context/docs/research/` (checked 2026-11-14). The research file and section are given next to each fact, with the page URL.
 >
@@ -14,9 +14,9 @@
 
 | Field | Value |
 |---|---|
-| Sender name(s) | "Demo sender (portfolio project)". Not a Ramp employee |
+| Sender name(s) | "Segun (GTM portfolio build)". The owner's first name with a practice-build note. Not a Ramp employee (changed from "Demo sender (portfolio project)" on 2026-11-15, owner-approved) |
 | Title | None. The signature carries no title |
-| Signature format | "Demo sender (portfolio project)", no Ramp branding |
+| Signature format | "Segun (GTM portfolio build)", no Ramp branding |
 | Sender persona notes | Peer-to-peer, first person singular |
 
 ## What we do (locked value prop, approved 2026-11-14)
