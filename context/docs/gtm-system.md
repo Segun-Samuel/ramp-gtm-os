@@ -118,7 +118,7 @@ Flow chart on Miro: [Ramp GTM System](https://miro.com/app/board/uXjVENuOvXk=/) 
 | Decision | Answer → where it goes |
 |---|---|
 | Is the employee count still missing after Run 2? | Yes → drop (the band can't be checked). No → continue |
-| Is the industry classification clear? | Clear → use it. Ambiguous → the AI classifier returns `REVIEW` (enum `S1 | S2 | S3 | OUT | REVIEW`) → manual review queue |
+| Is the industry classification clear? | Clear → use it. Ambiguous → the AI classifier returns `REVIEW` (enum `S1 \| S2 \| S3 \| OUT \| REVIEW`) → manual review queue |
 | Is this a new column or a new batch? | Yes → prove it on one row that should qualify and one that should fail, then show the cost in USD and Clay credits and wait for the owner's OK [bc, import-clay-table]. No (proven column, approved batch) → run |
 
 **Hand-off.** Each company row with firmographics, a segment label and secondary evidence.
@@ -187,7 +187,7 @@ AP and accounting ops (the influencer) are not cold-contacted in v1: in the rese
 | Decision | Answer → where it goes |
 |---|---|
 | Same person found by both paths? | Yes → merge on personal LinkedIn URL (or full name plus domain), keep the better-verified values [bc]. No → keep |
-| `Still Employed?` (AI action, enum `YES | NO | REVIEW`) [bc] | YES → contact qualification. NO → drop. REVIEW → manual check |
+| `Still Employed?` (AI action, enum `YES \| NO \| REVIEW`) [bc] | YES → contact qualification. NO → drop. REVIEW → manual check |
 | Contact qualification passes? | Yes → step 8. No → drop with reason |
 | No champion found? | Use the economic buyer only |
 | No champion and no economic buyer? | Company parked as "no contact"; logged for the weekly review |

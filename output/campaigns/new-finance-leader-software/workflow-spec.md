@@ -48,7 +48,7 @@ Notes:
 | Trigger: new leader and start date | LinkedIn-based person profiles: current title and start date | Clay people search filtered by title, start date, company industry, company size and US; `start_date` and `company_domain` as extra keys (Rex) |
 | New to the company | Previous position on the profile | Clay person data or LinkedIn Experiences action; previous employer domain differs from the current company |
 | Company firmographics | Company profile | Clay company enrichment; Claygent Run 1 / Run 2 fallback for location and employee count |
-| Still in the role | Person profile | `Still Employed?` AI action, enum `YES | NO | REVIEW` |
+| Still in the role | Person profile | `Still Employed?` AI action, enum `YES \| NO \| REVIEW` |
 | Booster U1: finance-ops roles open | Company job postings, last 30 days | Clay "Find Jobs at Company" |
 | Booster U7: incumbent tool named | Job description text from U1 | Keyword match |
 | ERP named | Job description text from U1 | Keyword match |
@@ -194,27 +194,27 @@ Ramp puts your whole finance stack in one place: {cards, expenses, bills and the
 ```
 
 **L1 `{{e1l1}}`, routes on Start Bucket (exhaustive, no fallback)**
-- + FIRST_MONTH: You're a few weeks into the {{leader_title}} role at {{company_name}}, so you're probably still learning how money moves there.
-- + SECOND_MONTH: You took over as {{leader_title}} at {{company_name}} in {{start_month}}, so you're likely mapping how money moves there by now.
-- + THIRD_MONTH: You've been {{leader_title}} at {{company_name}} since {{start_month}}, so you've probably got a clear picture of how money moves there.
+- \+ FIRST_MONTH: You're a few weeks into the {{leader_title}} role at {{company_name}}, so you're probably still learning how money moves there.
+- \+ SECOND_MONTH: You took over as {{leader_title}} at {{company_name}} in {{start_month}}, so you're likely mapping how money moves there by now.
+- \+ THIRD_MONTH: You've been {{leader_title}} at {{company_name}} since {{start_month}}, so you've probably got a clear picture of how money moves there.
 
 **L2 `{{e1l2}}`, routes on Cell (exhaustive, no fallback)**
-- + C1: My guess is a lot of it runs through vendors and software subscriptions, and you're sorting it with the team you have.
-- + C2: With a {{role_title}} role open, it sounds like more volume is landing on finance.
-- + C3: With several finance roles open, including a {{role_title}}, it reads like you're building the team for the next stage.
-- + C4: In a software company, my guess is a lot of it runs through card transactions and subscriptions that need coding every month.
-- + C5: With a {{role_title}} role open, my guess is accounting needs more hands for coding and the close.
-- + C6: With several finance roles open, including a {{role_title}}, you're probably deciding how the new team will work.
+- \+ C1: My guess is a lot of it runs through vendors and software subscriptions, and you're sorting it with the team you have.
+- \+ C2: With a {{role_title}} role open, it sounds like more volume is landing on finance.
+- \+ C3: With several finance roles open, including a {{role_title}}, it reads like you're building the team for the next stage.
+- \+ C4: In a software company, my guess is a lot of it runs through card transactions and subscriptions that need coding every month.
+- \+ C5: With a {{role_title}} role open, my guess is accounting needs more hands for coding and the close.
+- \+ C6: With several finance roles open, including a {{role_title}}, you're probably deciding how the new team will work.
 
 **L3, static:** Ramp puts your whole finance stack in one place: {cards, expenses, bills and the close|the card, expenses, bills and the close}. (Lead-in from facts.md value prop variant B, "Your whole finance stack in one place."; changed from variant C in the review.)
 
 **L4 `{{social_proof}}`, routes on Cell (exhaustive, no fallback)**
-- + C1: Foursquare's Head of Business Operations put it this way: "We've eliminated rogue spend and cut our vendor stack by a third."
-- + C2: Brandt's VP of Accounting faced the same choice: "instead of hiring our way through it, we fixed the workflow."
-- + C3: TaskHuman's Controller described that stage this way: "We were growing too fast and needed a solution that could match that scale."
-- + C4: Perplexity's Controller: "Gone are the days of scrambling to chase receipts, manually coding really large data sets."
-- + C5: Per Ramp's case study, Brandt, a software company, now closes its books 15 to 20 hours faster.
-- + C6: Foursquare's Head of Business Operations: "The average person can figure Ramp out without training. That's what drives 100% adoption."
+- \+ C1: Foursquare's Head of Business Operations put it this way: "We've eliminated rogue spend and cut our vendor stack by a third."
+- \+ C2: Brandt's VP of Accounting faced the same choice: "instead of hiring our way through it, we fixed the workflow."
+- \+ C3: TaskHuman's Controller described that stage this way: "We were growing too fast and needed a solution that could match that scale."
+- \+ C4: Perplexity's Controller: "Gone are the days of scrambling to chase receipts, manually coding really large data sets."
+- \+ C5: Per Ramp's case study, Brandt, a software company, now closes its books 15 to 20 hours faster.
+- \+ C6: Foursquare's Head of Business Operations: "The average person can figure Ramp out without training. That's what drives 100% adoption."
 
 **CTA, static:** {Worth sending over the full story?|Want me to send the full story?|Should I send over how they did it?}
 
@@ -257,14 +257,14 @@ Day 5, same thread (`Re:` the Email 1 subject). Opens straight on new value; no 
 Route priority: TOOL, then ERP, then FALLBACK by persona. Tool and ERP exist only in hiring cells (C2, C3, C5, C6), so C1 and C4 always take the fallback. The ERP route fires only for the four ERPs facts.md approves (NetSuite, Sage Intacct, QuickBooks, Xero); Rillet and Campfire take the fallback.
 
 **L1 `{{e2l1}}`**
-- + TOOL (`{{incumbent_tool}}` not blank): The {{role_title}} posting at {{company_name}} mentions {{incumbent_tool}}, so my guess is part of the spend runs through it today.
-- + ERP (no tool; `{{erp}}` in the approved four): The {{role_title}} posting mentions {{erp}}, so I'm guessing that's where the books close.
+- \+ TOOL (`{{incumbent_tool}}` not blank): The {{role_title}} posting at {{company_name}} mentions {{incumbent_tool}}, so my guess is part of the spend runs through it today.
+- \+ ERP (no tool; `{{erp}}` in the approved four): The {{role_title}} posting mentions {{erp}}, so I'm guessing that's where the books close.
 - FALLBACK, ECONOMIC_BUYER (C1, C2, C3): My guess is getting a clear view of spend is near the top of your list right now.
 - FALLBACK, CHAMPION (C4, C5, C6): My guess is a predictable close is near the top of your list right now.
 
 **L2 `{{e2l2}}`** (same route as L1)
-- + TOOL: If moving off it ever comes up, Ramp's line is: "Most finance software takes months to implement. Ramp only takes days."
-- + ERP: Ramp integrates with {{erp}}, and its claim is simple: "Close your books 3x faster."
+- \+ TOOL: If moving off it ever comes up, Ramp's line is: "Most finance software takes months to implement. Ramp only takes days."
+- \+ ERP: Ramp integrates with {{erp}}, and its claim is simple: "Close your books 3x faster."
 - FALLBACK, ECONOMIC_BUYER: Ramp's policy agent reviews 100% of your expenses.
 - FALLBACK, CHAMPION: One number Ramp publishes: "Up to 3.5x more fully-automated codings than legacy tools."
 
@@ -317,12 +317,12 @@ If {the card and expense tools sit|spend tools sit|the spend side sits} with som
 **Connection request (day 3):** no note.
 
 **DM 1 (day 8, only if accepted), routes on Cell (exhaustive, no fallback).** Body: `{{first_name}}, {{dm1}}`. No greeting line, no signature.
-- + C1: any plans to look at how vendor and software spend is managed as part of the new role?
-- + C2: is the {{role_title}} hire meant to take on expenses and bills, or more of the reporting side?
-- + C3: as you build out the finance team, are you keeping the current tools or looking at them fresh?
-- + C4: are you planning to change how card spend gets coded, or keep the current setup for now?
-- + C5: is the {{role_title}} hire mostly for the month-end close, or for day-to-day AP?
-- + C6: are you setting up the new accounting team on the current tools, or reviewing those first?
+- \+ C1: any plans to look at how vendor and software spend is managed as part of the new role?
+- \+ C2: is the {{role_title}} hire meant to take on expenses and bills, or more of the reporting side?
+- \+ C3: as you build out the finance team, are you keeping the current tools or looking at them fresh?
+- \+ C4: are you planning to change how card spend gets coded, or keep the current setup for now?
+- \+ C5: is the {{role_title}} hire mostly for the month-end close, or for day-to-day AP?
+- \+ C6: are you setting up the new accounting team on the current tools, or reviewing those first?
 
 **DM 2 (day 15, only if connected and no reply), static:**
 `{Asking because|I ask because|Only asking because} software companies like Foursquare and Brandt moved that work onto Ramp. {Happy to send over how they set it up, if useful.|Glad to share how they set it up if it would help.|Can send over how they set it up, if that's useful.}`

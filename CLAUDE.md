@@ -90,6 +90,6 @@ The tools used for GTM in this repo. Helper scripts live in tools/. Read tools/ 
 - HubSpot: CRM. Where qualified leads and deals land.
 - n8n: workflow automation between the tools. Trial starts in Week 4, not earlier.
 - GitHub CLI (gh): creates and manages this repo and its pushes.
-- Notion: where the finished work is published (step 14).
+- Notion: where the finished work is published (step 14). Published copy: [Ramp GTM OS](https://app.notion.com/p/4197c7a1c9e081a9ac0eff2de67a48f3), a private page in my workspace, copied from GitHub on 2026-11-15. GitHub stays the source of truth; re-publish a page when its file changes.
 - Miro: where the GTM system is drawn (step 13), through the miro-gtm-flowchart skill.
 - treg (treg.to): catalog of external data and enrichment tools, used through the treg skill or the treg CLI. Scoped here to the treg project "Ramp GTM OS" (slug ramp-gtm-os) inside the growthpalx-team team, so calls bill to that team's balance. Before any call over $0.10, or any loop or batch, state the expected total and wait for my OK. Never run treg scan or treg upload in this repo, they read .env files.
