@@ -23,6 +23,8 @@ Scope: US Mid-Market (100 to 999 employees, privately held, for-profit) in three
 
 Cheap, deterministic gates (dedupe, suppression, firmographic filters) run before anything that costs credits or model spend. [bc]
 
+Flow chart on Miro: [Ramp GTM System](https://miro.com/app/board/uXjVENuOvXk=/) (drawn 2026-11-15 from this file with the miro-gtm-flowchart skill; source spec `diagrams/ramp-gtm-system.json`). On the chart, step codes such as 1A and 2E are box labels, not the step numbers used in this file. Redraw it when this file changes.
+
 ## Tools
 
 | Tool | Role in this system | Status |
@@ -34,7 +36,8 @@ Cheap, deterministic gates (dedupe, suppression, firmographic filters) run befor
 | Email sequencer | Sends the email steps; tags replies | **PROPOSED: Instantly.** Its MCP is connected to this workspace and the campaign-qa skill supports it. Not yet chosen |
 | LinkedIn tool | Connection requests and messages | **Not chosen.** Until then, LinkedIn steps are HubSpot tasks for a rep |
 | Inbox placement test | Checks inbox vs spam before launch | inbox-placement-test skill (built for EmailBison and MailReach) |
-| Notion, Miro | Publishing (step 14) and drawing this system (step 13) | Later |
+| Notion | Publishing (step 14) | Later |
+| Miro | Drawing this system (step 13) | In use: [Ramp GTM System board](https://miro.com/app/board/uXjVENuOvXk=/) |
 
 ---
 
